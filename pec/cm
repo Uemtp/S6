@@ -1,1 +1,1016 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\title{La politique économique et sociale} %robert.braid@umontpellier.fr%
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+\part*{Introduction}
+\section{Le cadre de l'étude}
+\subsection{Politique}
+Politique (du grec polis  "cité") : n.f., mesure mise en place qui concerne un groupe d’individus par ceux et celles qui ont l’autorité (policy en anglais). \\ \\
+Politique : adj., relatif à l’organisation d’un groupe d’individus, political en anglais et politician : une personne qui a ou qui cherche à avoir, l’autorité pour administrer un groupe (homme/femme politique).
+\subsection{Économie}
+Économique (du grec oikos  "maison" et nomos  "structure") : n. f., l’étude de ou l’ensemble des faits concernant la production, distribution et consommation de la richesse (produits, ressources). En anglais economy (les faits) vs. economics (l’étude). \\ \\
+Économique : adj., relatif à la production, distribution et consommation de la richesse, en anglais economic (économie) vs. economical (efficace).
+\subsection{Social}
+Social (du latin socius  "compagnon, associé, allié", societas  "association"). \\ \\
+Social : adj. relatif à un groupe d’individus conçu comme une réalité distincte. \\ \\
+Société : n.f. relations entre des personnes qui ont ou qui mettent quelque chose en commun.
+\subsection{Gouvernement}
+Gouvernance : la manière d’organiser les activités d’un groupe. \\ \\
+Gouvernement : un groupe d’individus chargé de l’organisation les activités d’un plus grand nombre d’individus. En anglais, administration (les personnes), government (la structure).
+\subsection{Entités politiques}
+État (du latin status, stare  "se tenir debout") : une communauté politique organisée, normalement sur un territoire bien défini. \\ \\ \\
+Nation : (du latin, natio  "naissance ") une communauté de personnes qui partage en commun une culture, une langue, une histoire, une descendance (e.g., \textit{république, fédération, communauté, union, région, etc.}). \\ \\
+Notre conception de ce qui constitue un  "État" et de la manière dont il devrait fonctionner est influencée par le type d’organisation dont nous avons l’habitude. Souvent on utilise le même terme pour désigner des réalités bien différentes. Il faut être conscient qu’il s’agit d’une réalité artificielle, c’est-à-dire qui n’est pas une création de la nature, mais par les décisions collectives des êtres humains. Par ce fait, les structures et le fonctionnement des états, et donc de leurs politiques, peuvent varier dans l’espace et évoluer dans le temps.
+\subsection{Marché}
+Marché (du latin mercatus, merx, mercis :  "marchandise", attn : merces  "salaire, récompense") : l’ensemble des opérations commerciales concernant une catégorie de bien dans une zone géographique. \\ \\
+La politique économique est souvent considérée comme une force extra-économique (exogène) qui influe sur les activités à l’intérieur des marchés (endogènes). \\ \\
+\subsection{La politique économique et sociale}
+La politique économique et sociale : l’ensemble de mesures par lesquels les autorités publiques (locales, départementales, régionales, nationales, supranationales) cherchent à agir sur les activités des différents acteurs afin d’améliorer le bien-être des citoyens et résidents.
+\section{La méthode}
+\subsection{La politique vs les politiques}
+La politique : analyser des théories avec des exemples pour illustrés. \\ \\
+Les politiques : analyser la réalité afin d’arriver à une conception de leur fonctionnement.
+\subsection{Théorie vs pratique}
+"Les idées des philosophes de l’économie et de la politique, aussi bien quand ils ont raison que quand ils ont tort, sont plus puissantes que l’on a tendance à comprendre. En effet, le monde est contrôlé essentiellement par elles. Les hommes pratiques, qui se croient libérés de toute influence intellectuelle, sont en règle générale les esclaves d’un économiste défunt". J.M. Keynes, General Theory of Employment, Interest and Money, 1936. \\ \\
+\subsection{Théorie ET Pratique}
+Interaction très forte entre les acteurs et les théoriciens. \\ \\
+L’analyse des idées, des structures et des mesures mises en place influencent les décisions des agents sur les marchés (économique), mais aussi les citoyens au sein d’une communauté (social).
+\begin{itemize}
+    \item politique monétaire
+    \item politique budgétaire et finances publiques
+    \item croissance et emploi
+    \item éducation et innovation
+    \item santé, retraite et bien-être
+    \item immigration et le marché du travail
+    \item environnement, agriculture et énergie
+\end{itemize}
+Problématique : dans quelle mesure est-ce que ces aspects influent sur la performance économique d’un pays et sur le bien-être de ses citoyens ? \\ \\
+Champ spatial : focus sur "l’Occident", l’Europe de l’ouest, l’Amérique du nord, l’Australie, le Japon, etc.
+\begin{itemize}
+    \item A partir du 19ème siècle, grâce à sa puissent économique liée à l’industrialisation, l’Europe a dominé le monde, tant sur le plan politique que culturel, principalement par la colonisation. 
+    \item Depuis 1945, l’Europe a été remplacée dans ce rôle par les États-Unis, fille de la Grande Bretagne, par le biais d’institutions  "internationales" (la fin de la colonisation européenne). 
+    \item Depuis le début du XXI$^ème$ siècle, la montée en puissance des  " pays émergent  ", en grande partie grâce à l’organisation internationale établie depuis 1945, met en question l’orientation des structures politiques.
+\end{itemize}
+Justification
+\begin{itemize}
+    \item Comme la plupart des étudiants continueront à travailler en France, ou avec la France, nous allons nous concentrer principalement sur les structures et les politiques françaises, et européennes. 
+    \item Compte tenu du rôle important joué par le rôle des États-Unis dans la construction de l’organisation internationale de l’économie mondiale, il convient d’inclure les politiques américaines.
+    \item Comme certains pays dits  "émergent" sont en train d’exercer une influence importante sur l’économie mondiale, et par extension sur les politiques économiques d’autres pays, il serait intéressant d’inclure leur histoire, leurs idées, leurs structures.
+\end{itemize}
+Champ temporel : afin de comprendre la situation actuelle, il faut expliquer son développement historique. 
+\begin{itemize}
+    \item Aucune société ne peut raser totalement le passé (culture, modes de production, mentalités), du coup les politiques mises en place sont bâties les unes sur les autres. 
+    \item De même, les théoriciens de l’économie dépendent des études précédentes pour leur conception du fonctionnement de l’économie et de la meilleure manière de l’organiser. Ils dépendent également de leur contexte historique pour observer les interactions entre agents économiques et l’influence des politiques sur leurs comportements.
+\end{itemize}
+Objectifs du public
+
+
+Vous = Acteurs 
+Dans une entreprise : Pour permettre aux étudiants en licence de comprendre les mécanismes qui influeront sur leurs activités économiques et leurs relations avec les autres membres de leur communauté. 
+
+Au sein du gouvernement : Pour comprendre comment ses décisions ont un impact sur la communauté et pour éviter d’éventuelles effets secondaires non désirables. 
+
+
+Vous = Intellectuels  
+Institut de recherche, université, organisation nationale ou internationale. 
+Pour permettre aux étudiants d’acquérir les compétences d’analyse
+    • poser une question et établir des limites
+    • rechercher des données
+    • interpréter ces données 
+    • mettre en œuvre de théories pour expliquer les tendances observées
+    • argumenter son point de vue
+
+
+Général
+Compétences en 
+    • analyse – lectures de documents, recherche et analyse de données
+    • communication – présentations en classe, argumenter son point de vue
+    • travail en équipe – partage des taches
+
+
+
+Quels sont vos objectifs professionnels ?
+En vue de ces objectifs, en quoi est-ce qu’une analyse de la politique économique et sociale peut être utile ?
+
+La politique économique et sociale
+Chapitre 2. La Construction de l’Etat moderne 
+Les théories et les pratiques
+
+Théories et pratiques afin d’analyser 
+    • les politiques établies pour réguler les comportements économiques et sociaux des agents. 
+    • les idées développées pour comprendre ces comportements et l’influence des politiques.
+
+
+Construction d’état =  " State-Building  "
+Institutions (voir Douglass North, 1991)
+    • “Contraintes humainement conçues qui structurent les interactions politiques, économiques et sociales  ".  
+    • Elles sont essentielles pour la croissance économique, car garant d’une certaine stabilité. 
+    • Influencés par les changements technologiques, économiques, et sociétaux. 
+    • Très lentes à se construire, une fois en place elles constituent une source de rigidité. 
+
+
+Pluralisme des institutions à travers le monde actuel, avec deux extrêmes : 
+
+Libéralisme/individualisme ←--------------------------------------------------------------------→ Collectivisme
+
+Où se situe la France sur cet axe ? Les Etats-Unis ? La Chine ? La Russie ?
+Est-ce que la politique économique et la politique sociale se trouvent toujours au même niveau sur cette échelle ?
+
+
+
+
+2.1 Antiquité
+
+    • Organisation sociale : Depuis que l’être humain s’est mis à vivre ensemble, la question de l’organisation des activités s’est posée, notamment en ce qui concerne la production, distribution et consommation des produits. 
+    • Civilisation et écriture : La coordination des activités nécessite création d’institutions et la rédaction de textes qui nous informent sur l’organisation. 
+    • Histoire : L’étude de documents - les premiers textes sont économiques (comptabilité) et politiques (lois, institutions).
+
+Code Hammurabi – Babylone, vers 18ème siècle BCE.
+Code juridique pour réglementer les activités au sein du royaume.
+    • location de biens mobiliers et immobiliers
+    • contrats
+    • emprunts
+    • fixation des salaires
+    • responsabilité professionnelle
+
+Peu d’intérêt pour nous, car seulement récemment redécouvert. 
+Pas d’influence directe dur notre façon de s’organiser.
+
+La Grèce Antique
+Expansion économique grâce au commerce (navigation). 
+Modes de production basés sur la hiérarchie sociale et juridique et l’esclavage.
+Pluralité des organisations politiques à échelle variable (état-cité, royaume, empire).  
+Début des expériences avec la  " démocratie  ", notamment à Athènes.
+
+Développement des études politiques
+Expansion économique permet le développement d’un groupe d’intellectuels (philosophes).
+Transversalité des études : sciences naturelles, sciences humaines, logique, rhétorique, musique…
+
+Socrates (470-399 BCE) et la transformation de la philosophie. 
+    • Méthode de questionnement pour arriver à la vérité, 
+    • … ou du moins la reconnaissance de l’ignorance ( " épistémologie  ").
+    • Célèbre pour n’avoir rien écrit, car la réflexion doit toujours prendre la forme d’un dialogue. 
+    • Exécution par un tribunal populaire pour avoir trop influencé des dirigeants d’une révolte.
+
+
+Xénophon (426-355 BCE)
+Elève de Socrates, Xénophon a principalement mené une carrière de militaire.
+Lors de son exile, il se met à la rédaction de plusieurs traités, y compris sur l’économie.
+Economie : Conseils de gestion pour augmenter la productivité d’un domaine agricole familial.
+Des Revenus : Conseils auprès de la ville d’Athènes en matière de politique économique afin de créer la croissance économique et réduire la pauvreté après une longue période de guerre. 
+1. Ressources naturelles (terre, mer, mines d’argent)
+2. Commerce international et tourisme (balance commercial et flux de capitaux)
+3. Politique fiscale pour équilibrer les finances publiques et améliorer la production. 
+4. Investissement direct (achat d’esclaves à mettre en location).
+5. Bénéfices pour réduire la pauvreté des citoyens (bien-être)
+6. Surtout, assurer la paix, car la guerre mène à la destruction et à la pauvreté. 
+
+Il comprend la nécessité de l’intervention de l’Etat dans les activités économiques par le biais de la fiscalité, de l’investissement, de la réglementation et de la redistribution, afin d’augmenter l’activité économique et d’assurer le bien-être des citoyens. 
+
+
+Platon (427-348 BCE) 
+    • Elève de Socrates, Platon mène une vie d’intellectuel. 
+    • Il attire un grand nombre de jeunes de la classe dirigeante et les forme dans l’art de la philosophie et la logique. 
+    • Très clairement contre la démocratie, car le peuple manque les capacités intellectuelles et les connaissances nécessaires pour prendre les meilleures décisions.
+    • Contrairement à son maître, il est l’auteur de nombreux ouvrages, mais qui prennent souvent la forme d’un dialogue.
+
+La République
+    • Ouvrage sur l’organisation idéale d’une cité : oligarchie élitiste bien formée qui dirige selon la raison ( " rois philosophes  ") 
+    • Limites pour empêcher le conflit d’intérêts (interdiction de propriété privée pour éviter de prendre des décisions dans son intérêt propre, interdiction de se marier ou d’élever des enfants pour éviter le népotisme, etc.).
+    • Rend compte des difficultés inhérentes à la gestion d’une communauté assez large.
+    • Très aligné à l’approche des théoriciens (ex ante) : Comment les choses devraient fonctionner.
+
+
+Aristote (384-322 BCE) 
+    • Etranger à Athènes, élève de Platon, mais n’ayant pas été nommé son successeur, il quitte la ville pour étudier la biologie. 
+    • Il deviendra aussi tuteur auprès du jeune Alexandre le Grand de Macédoine. 
+    • Aristote développe une nouvelle méthode pour analyser non seulement la nature, mais aussi la société humaine. 
+
+La Politique
+    • Analyse des multiples systèmes en place dans le bassin méditerranéen. 
+    • Plus de 150 études de cas. 
+    • Il examine tous les problèmes de chaque type d’organisation, utilisant des cas concrets, et expliquent les différences en termes de la géographie, l’histoire, la culture de chaque territoire. 
+    • Très aligné sur l’approche des praticiens (ex post) : Examiner les résultats des expériences réelles.
+
+Identification de six typologies d’organisation politique en fonction de 
+1) Qui prend les décisions ? 
+    • Une personne
+    • Un petit groupe
+    • Un grand groupe
+
+2) Dans l’intérêt de qui ? 
+    • Dans la version intègre, les décisions sont prises dans l’intérêt de la communauté. 
+    • Dans la version corrompue, elles sont prises dans l’intérêt des décideurs.
+
+Typologie d’organisation politique selon Aristote
+
+Version intègre
+
+Version corrompue
+Monarchie
+>
+Tyrannie
+Aristocratie
+>
+Oligarchie
+Polity
+>
+Démocratie
+
+
+Les limites de la croissance
+Il se pose la question de savoir si la croissance est illimitée. 
+Il observe que la civilisation dépend de la croissance économique, de la spécialisation et du commerce, et par ce fait on a créé l’instrument monétaire pour faciliter ces échanges. (Voir Smith).  
+Il conclut que :
+    • la richesse financière est illimitée car la demande est illimité et on peut amasser or et argent sans fin.
+    • la richesse réelle est limitée car la nature impose des limites à la production. 
+
+Très importante réflexion sur le développement durable.
+
+
+Epicure (341-270 BCE)
+    • Philosophe qui pense que le but dans la vie est de maximiser son plaisir (utilité) et réduire sa peine (désutilité).
+    • Focalisé sur le bonheur à long-terme. 
+    • Questionnement sur ce qui constitue le bien-être.
+    • Peu intéressé par la politique, mais il aura une très grande influence sur les philosophes du XVIIIème siècle (Smith, Bentham, Mill) et l’économie du bien-être.
+
+Rome : de la République à l’Empire
+République : ca. 500 BCE – 27 BCE
+SPQR : Senatus Populusque Romanus (le Sénat et le Peuple Romains)
+République : res (chose) + publica (publique)
+Combinaison des trois types d’organisation d’Aristote : 
+    • Monarchique :  2 consuls (exécutif), 
+    • Aristocratique : Sénat (législatif), 
+    • Peuple : suffrage
+
+L’étendu territorial de la République a rendu impossible cette structure consultative. Après l’assassinat de Jules César en 44 BCE, une longue guerre civile a fini par instaurer un Empire, sous Auguste, avec une forte centralisation du pouvoir en 27 BCE. 
+
+Empire : 27 BCE – 476 CE (ouest)/1453 CE (est)
+Officiellement encore une République, mais une monarchie de facto 
+
+
+
+
+Source : Commons, accessed through Wikimedia, L’empire romain.
+By English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2031501
+
+L’empire romain
+    • Croissance territoriale, économique et démographique.
+    • Une administration efficace, système fiscal complexe
+    • Droits civiques pour tous les citoyens. 
+    • Réseaux alimentaires et commerciaux étendus
+    • Essor de la technologie : ponts, aqueducs, armes, urbanisation, bains, égouts, …
+    • Pax romana: deux siècles de paix sous l’autorité romaine.
+
+Code de Justinien, début d VIème siècle. 
+Recueil de lois de l’Empire Romain. 
+Une grande inspiration pour le Code civil élaboré sous Napoléon.
+Beaucoup d’articles sur les activités économiques – politique relativement libérale
+
+
+2.2 Le Moyen Age
+
+IVème siècle – L’Epire romain adopte le christianisme 
+Vème siècle – Chute de l’empire romain en occident
+IXème siècle – Empire sous Charlemagne, puis division
+XIème siècle – Invasion des Isles Britannique par Guillaume le Conquérant
+
+XIIème – XIIIème siècles 
+    • Structure européenne de base : Monarchies, puis parlement au XIIIème siècle.
+    • Angleterre, Magna Carta 1215, pour garantir certains droits des seigneurs et développement de Common Law (homogénéisation du droit, vs. droit coutumier)
+    • Croisades : expéditions militaires orientées principalement vers l’extérieur de l’Europe. 
+    • Développement d’une administration royale pour gérer la croissance économique (tribunaux, représentants permanents).
+    • Emergence des universités (Paris, Bologne, Montpellier)
+    • Intellectuels (clergé) favorable à une politique de laissez-faire, car l’offre et la demande sont déterminées par Dieu. Analyse des phénomène économiques dans le cadre de la moralité. 
+
+Thomas d’Aquin (1225-1274),
+    • Le plus grand théologien du Moyen Age
+    • Fortement influencé par la méthode d’Aristote (nouvelles traductions en latin). 
+    • Sa Somme Théologique examine de totalité de la foi chrétienne utilisant la méthodologie d’Aristote. 
+    • Du gouvernement royal, à l’intention des gouvernants concernant leur devoirs et responsabilités en tant pouvoir séculier, y compris comment ils doivent protéger le commerce pour permettre au peuple de pouvoir se procurer les denrées nécessaires pour la survie. 
+    • Profondément attaché à l’idée de la non intervention dans les marchés.
+    • Puisque l’offre (les récoltes) et la demande (les bouches à nourrir) sont déterminés par Dieu, les prix doivent fluctuer selon le marché.
+
+
+XIVème siècle 
+    • Ralentissement de l’expansion fin XIIIème siècle.
+    • Crises (famine 1315-1321), épidémie (1348-1351), … et guerres entre pays (Guerre de Cent Ans), mais aussi guerres intérieures (Guerre des Roses). 
+    • Recul démographique, diminution de la production.
+    • Utilisation de l’administration pour gérer le déclin, notamment pour fixer les prix et salaires, réglementer le marché du travail (heures, jours, formes de rémunération), de nouvelles expériences avec la fiscalité pour combler les trous laisser par la peste. 
+    • Les intellectuels mettent en question les bienfaits des marchés libres et développent une argumentation en faveur du contrôle des marchés sur la base de la moralité.
+
+
+Jean de Gerson (1363-1429)
+Sur l’intervention de l’état dans les marchés
+ " La loi peut justement fixer les prix des choses qui sont vendues […] au-dessous desquels le vendeur ne doit pas donner ou au-dessus desquels l'acheteur ne doit pas exiger, quel que soit leur désir de le faire. Comme le prix est une sorte de mesure de l'équité à maintenir dans les contrats, et comme il est souvent difficile de trouver cette mesure avec exactitude, compte tenu des divers désirs corrompus des hommes, il convient que le moyen soit fixé selon le jugement d'hommes sages. […] Dans l'état civil, personne n'est plus sage que les législateurs. Alors, il convient à ceux-ci, quand c'est possible, de fixer le juste prix, qui ne peut pas être dépassé par le consentement privé, et qui doit être appliqué.  " 
+(Jean de Gerson, De Contractibus., I, 19, in Opera Omnia, t. 3, I, V, 19, p. 175.)
+
+
+Nicolas Oresme (vers 1320-1382), 
+    • Conseil personnel auprès du roi de France Charles V.
+    • Contexte de dévaluations monétaires pour renforcer le trésor public. 
+    • Moins d’or et argent par pièce = plus de pièces pour le roi.
+    • Augmentation de la masse monétaire donne lieu à l’inflation.
+
+Traité sur l'origine, la nature, le droit et les mutations des monnaies
+    • Premier traité sur le politique monétaire. 
+    • La monnaie comme un bien public, plus qu’un droit régalien.
+    • L’importance de la stabilité monétaire pour assurer le bien-être des sujets. 
+
+
+
+2.3. Le mercantilisme XVème – XVIIème siècle
+Contexte Economique 
+    • Expansion de l’Europe : Amérique, Afrique, Asie.
+    • Développement économique grâce au colonialisme. 
+    • Espagne devient riche grâce à l’or de l’Amérique latine.  
+    • L’Angleterre et la France deviennent riches en vendant aux espagnols des esclaves, puis commerce avec l’Asie. 
+    • Importation de matières premières (thé, café, chocolat, sucre). 
+    • Accumulation du capital, mais aussi soutien de l’Etat central pour octroyer des monopoles (East India Companies), investissement dans des manufactures.
+    • Essor des sociétés mercantiles. 
+
+Contexte Social
+    • L’invention et le déploiement de l’imprimerie (vers 1450) enlève le monopole du savoir à l’Eglise.
+    • Nouvelle classe d’intellectuels qui ne dépendent pas de l’Eglise, donc de nouvelles idées.
+    • Renaissance : retour sur les modèles de l’Antiquité. 
+    • L’émergence du Protestantisme génère des conflits sociaux et politiques. 
+
+Contexte Politique
+    • Grâce à la croissance économique, et les conflits sociaux internes, renforcement du pouvoir central.
+    • Charles V à la tête de l’Espagne et du Saint Empire Romain (Allemagne, Italie, Pays Bas …)
+    • François Ier (1495-1547) consolide le pouvoir en France, face aux menaces extérieurs.  > Louis XIV (1638-1715, roi en 1643)  " L’Etat, c’est moi  "
+    • Henri VIII, à la tête de l’Etat et de l’Eglise. L’administration ecclésiastique est assimilée à l’administration royale. Assistance publique, naissances, mariages, décès, sous le contrôle de l’Etat central. 
+
+Développement d’une identité nationale et une organisation sous forme d’Etat-nation.
+
+
+L’Etat-nation  " mercantiliste  " 
+Développement du pouvoir d’un Etat central
+	1) régulateur des secteurs agricole, manufacturier, commercial.
+	2) investisseur industrie et commerce (monopoles commerciaux et armées)
+	3) protecteur des marchés nationaux. 
+Nécessité d’une fiscalité plus lourde pour financer ces activités. 
+
+Emergence d’une administration centrale pour contrôler et financer l’Etat.
+Cardinal Richelieu (1585-1642) Principal ministre sous Louis XIII 
+Jean-Baptiste Colbert (1619-1683), Contrôleur général des finances sous Louis XIV. 
+
+Les intellectuels justifient une forte intervention de l’Etat dans les activités économiques et sociales…
+
+
+Jean Bodin (1529-1597), Six livres de la République (1576) 
+Publié quelques années après le Massacre de St. Barthélémy (1572).
+    •  " Souveraineté  " : L’autorité de l’Etat (monarchique) provient du peuple, mais une fois cédée cette autorité est absolue et indivisible. 
+    • Finances de la République : ressources propres, péages, taxes douanières, et impôts. 
+ " Quant […] à l’impôt sur les sujets, il faut toujours essayer de l’éviter, à moins que […] la nécessité mette en danger la République. […] Il n’existe point de cause de révolutions ou de ruines de républiques plus fréquente que les charges et impôts excessifs.  "
+
+Equilibre délicat entre croissance économique et finances publiques.
+
+
+Antoine de Montchestien (ca. 1575-1621), 
+L’Etat de la France (1611) Après un séjour en Angleterre, il analyse la situation économique de la France.
+Traité d’économie politique (1615) : feuille de route pour l’Etat régulateur
+ " Les princes les plus grands, plus libéraux et plus magnifiques ont toujours fait gloire d’inventer des moyens, d’imaginer et dresser des règlements par lesquels ils puissent enrichir leurs sujets, sachant bien que telle richesse était la vraie et inépuisable source de leurs dépenses et libéralité.  "
+    • Bloquer l’importation de produits manufacturiers.
+    • Empêcher l’immigration, car elle augmente le chômage.
+    • Obliger la spécialisation. 
+    • Travail forcé des inactifs, car l’indolence est source de problèmes sociaux.
+ 
+
+Thomas Hobbes (1588-1679) 
+    • Léviathan ou Matière, forme et puissance de l'État chrétien et civil (1651)
+    • Guerre civile et décapitation de Charles Ier (1649), instauration de la Commonwealth.  
+    • Assurer la sécurité est le principal rôle de l’Etat, car elle permet le développement.
+    • La liberté se traduit par la violence.
+    • Le peuple confie tacitement l’autorité absolue à l’Etat.
+
+Le mercantilisme :
+    • Forte intervention du gouvernement dans les activités économiques et sociales pour maintenir l’ordre public et la stabilité économique. 
+    • Politiques économiques protectionnistes pour augmenter les exports, et politique coloniale pour accéder à des matières premières.
+    • Accompagné par l’émergence de l’Etat-nation et d’une identité nationale.
+    • Développement lent à partir de la fin du XIVème siècle – commence à prendre fin vers la fin du XVIIème siècle en Angleterre, et le XVIIIème siècle ailleurs.
+
+Dans quelle mesure est-ce que l’industrialisation peut être considérée comme le résultat des politiques mercantilistes ?
+
+
+
+2.4. Le Libéralisme - XVIIIème – XIXème siècle
+
+Essor économique de l’Europe –  " La Grande Divergence  "
+    • Poursuite et renforcement du colonialisme commercial (Asie, Afrique, Amériques).
+    • Début d’une organisation industrielle à partir du XVIIIème siècle, surtout en Angleterre, qui améliore la productivité.
+    • Meilleurs rendements agricoles grâce au climat et à l’organisation (privatisation des espaces communs –  " enclosures  "), augmentation de la population. 
+    • Innovations techniques d’abord dans l’industrie de la laine.
+    • Machine à vapeur : pour enlever l’eau des mines (milieu du XVIIIème), bateaux (fin XVIIIème), chemin de fer (début XIXème), et puis dans la production industrielle. 
+    • Maintient des politiques économiques mercantilistes pour le commerce extérieur jusqu’au XIXème siècle, développement des politiques économiques libérales pour le commerce intérieur (défense de la propriété privée, brevets, imposition modérée).
+    • Réseaux de canaux, chemins de fer, télégraphe, électricité, forte urbanisation, la voiture, l’Europe et l’Etats-Unis se développent très rapidement tout au long du XIXème siècle, dépassant de loin la capacité productive du reste du monde.
+
+
+
+Contexte Politique : Renversement des Monarchies absolues
+Royaume-Uni : 
+    • Guerre civile et décapitation de Charles Ier (1649) suivi d’une République (en anglais  " Commonwealth  ") mais sous la domination de Oliver Cromwell. Restauration de la monarchie en 1659 sous Charles II. 
+    • Ensuite, James II s’impose comme monarque absolu, alors plusieurs membres du Parlement invite William of Orange (Hanover) à prendre le trône d’Angleterre.  
+    • La  " Glorious Revolution  " (1688) – destitution d’un monarque autocratique par le parlement sans violence, et instauration d’une monarchie constitutionnelle. 
+    • Monarchie constitutionnelle, par consentement du Parlement. 
+    • Politique économique libérale à l’intérieur du pays, mais protectionnisme en ce qui concerne les marchés internationaux (Inde, Chine, Europe).
+    • Développement d’un système financier privé : innovations, infrastructure, commerce, guerre.
+    • Adoption d’une politique libérale d’échange à partir de 1830. 
+    • Réformation des Poor Laws en 1834 pour alimenter les usines en main-d’œuvre.
+    • A partir du milieu du XIXème siècle, adaptation du système libéral aux réclamations des ouvriers (meilleurs salaires, santé publique, conditions du travail). 
+    • Moins touchée par les révoltes qui ébranlent le continent (1848). Karl Marx peut se réfugier tranquillement à Londres après avoir été chassé de l’Allemagne, de la Belgique, de la France.
+    • Rattrapée par l’Allemagne et les Etats-Unis en termes d’industrialisations, mais l’Empire Britannique est à son apogée au début du XXème siècle. 
+    • Suffrage universel masculin en 1918, féminin 1918/28.
+
+
+Etats-Unis
+    • L’Angleterre interdit l’esclavage en 1772.
+    • En utilisant les mêmes arguments que pour la Glorious Revolution, les gouverneurs des colonies américaines se déclarent un état indépendant en 1776. 
+    • La Déclaration d’Indépendance = liste de plaintes contre George III, surtout économiques (impôts, restrictions du commerce).
+    • Constitution libérale 1781/1789 (mais sans suffrage universel).
+    • Politique quasi-coloniale : Expansion territoriale militaire vers l’ouest (de la Louisiane à la Californie) aux dépens des peuples indigènes, des espagnols, des mexicains, des français. Puis vers les Philippines, etc.
+    • Economie basée sur l’esclavage, principalement dans l’agriculture du Sud. 
+    • Abolition de l’esclavage en 1861, provoquant la Guerre Civile (1861-1865).
+    • Politique d’immigration libérale. Arrivée massive (principalement d’Européens), croissance démographique exponentielle.
+    • Ressources naturelles abondantes, le chemin de fer et le Canal du Panama relie les deux côtes et rapide industrialisation.
+    • Suffrage en fonction de l’Etat jusqu’à l’Amendement 19 (1920) pour les femmes et au Voting Rights Act (1965) et l’Amendement 26 (1971) pour les questions de race, propriété, taxes, etc.
+
+France : 
+    • Louis XIV meurt en 1715, Louis XV (1710-1774). De nombreuses guerres mettent en difficulté financière l’Etat.
+    • Louis XVI (1754-1793), réformateur libéral : Abolition du servage, de la corvée et de la taille ; soutient la Révolution américaine, mais seulement pour affaiblir l’Angleterre ; favorable au libéralisme économique, nomination de Turgot comme Contrôleur général des finances.
+    • Effondrement des Etats Généraux (1302-1789) : Premier état = 100.000 clercs, Second état = 400.000 nobles, Tiers état = 25 millions, et les seuls qui payaient des taxes.
+    • Création illicite de l’Assemblé nationale (serment du Jeu de Paume, Versailles, le 20 juin 1789). 
+    • Crises alimentaires, émeutes à Paris et prise de la Bastille (14 juillet 1789).
+    • Déclaration des droits de l’homme et du citoyen (27 août 1789).
+    • Etablissement du suffrage partiel (NB – Suffrage universel masculin à partir de 1870) et abolition de l’esclavage.
+    • Assemblé législative (1 octobre 1791) élu par 4 millions d’hommes imposables. 
+    • Echec d’une monarchie constitutionnelle. Décapitation de Louis XVI en 1793. 
+    • Le mouvement libéral se détériore en  " Terreur  ".
+    • Napoléon Bonaparte est instauré comme Premier Consul en 1799 et puis comme Empereur en 1804.
+    • Rétablissement de l’esclavage et abolition du suffrage. 
+    • Economie dirigée au niveau central : Code civil, système métrique, fiscalité et administration centrales.
+    • Etat expansionniste : Conquête de l’Europe (Espagne-Russie), de l’Egypte. 
+    • Défaite et exile de l’empereur. Congrès de Vienne (1815) pour rétablir l’ordre.
+    • Restauration de la Monarchie française en 1814 sous Louis XVIII.
+    • Monarchie constitutionnelle (La Charte constitutionnelle du 4 juin 1814) :  " L’autorité tout entière réside en France en la personne du roi.  "
+    • Charles X, plus absolutiste (dissolution de l’Assemblée, suspension de la liberté de la presse, etc.)
+    •  " Révolution Bourgeoise  " (26 juillet 1830), instaurant Louis-Philippe comme roi ( " Monarchie de juillet  ",  " Roi des français  "). 
+    • Révolution prolétaire (1848), Secondé République, Louis Napoléon Bonaparte III élu.
+    • Napoléon III s’autoproclame Empereur en 1852 (Second Empire)
+    • Grands projets : Reconstruction de Paris par Haussmann, Canal de Suez, chemins de fer, etc. 
+    • Invasion par la Prusse sous Bismarck. Commune de Paris (1870).
+    • Troisième République (1871-1914) :  " Liberté, égalité, fraternité  "
+    • Suffrage universel masculin en 1848/1871, sauf militaires et femmes en 1944/45.
+
+Italie
+    • D’une multitude de cités-états au Royaume de l’Italie  
+    • Après la défaite de Napoléon I (1815), désir d’unifier le Péninsule Italien (cités-états).
+    • Risorgimento, Giuseppe Garibaldi, Victor Emmanuel II – Roi d’Italie (1861). 
+    • Monarchie parlementaire libérale.
+    • Unification et centralisation, mais difficile à cause de la pluralité culturelle (dizaines de langues locales) et économique (Nord industriel -Sud agricole)
+    • Suffrage universel masculin 1912, féminin 1945.
+
+Allemagne : De l’Empire Prusse à l’Empire Allemand
+    • Unification des peuples Germanophones puis centralisation des fonctions de l’Etat.
+    • Otto von Bismarck (1815-1898) Chef du gouvernement du Royaume de Prusse (1862), puis de l’Empire allemand (1871-1890).
+    • Face aux crises économiques et le danger révolutionnaire il adopte des  " lois antisocialistes  " (1878)
+    • Puis modification de sa politique vers un  " socialisme d’Etat  " pour garantir le soutien des ouvriers : Assurance couvrant les accidents de travail (contrôlée par des entreprises), Assurance maladie et invalidité et Système de retraite (contrôlés par les ouvriers au niveau régional).
+    • Suffrage universel masculin 1871, féminin 1919. 
+
+
+Intellectuel –  " Le siècle des Lumières”
+Systèmes politiques libéraux
+John Locke (1632-1704)
+Traité sur le gouvernement (1689), juste après la Glorious Revolution. 
+    1. Défense de la liberté personnelle, 
+    2. Justification de la propriété privée (forte production et consommation limitée), 
+    3. L’Etat par consentement. 
+Enorme influence sur les fondateurs des Etats-Unis. 
+
+Début d’une longue transition de la pensée en matière de la politique économique vers le libéralisme.
+
+
+
+Montesquieu (1689-1755), De l’esprit des lois (1748)
+    • Analyse des différents types de gouvernement : République (démocratique ou aristocratique), Monarchie, Despotisme (fondé sur la crainte).  
+    • L’organisation politique doit s’adapter à plusieurs variables : culture, religion, climat, géographie, ressources, etc. 
+    • Nécessité de diviser le pouvoir : Exécutif, Législatif, Judiciaire
+
+ " Pour qu'on ne puisse abuser du pouvoir, il faut que, par la disposition des choses, le pouvoir arrête le pouvoir.  " (en anglais :  " checks and balances  ") 
+
+
+David Hume (1711-1776), History of England (6 vols.) 
+    • L’Angleterre avait le système de liberté le plus complet jamais connu dans le monde. 
+    • La liberté est  " l’innovation  " la plus importante qui explique le succès du pays. 
+    • Incitations : La raison est l’esclave des passions. Les désirs poussent l’activité. 
+    • La propriété privée n’est pas un droit naturel, mais crée une incitation à être productif.
+
+
+Jean-Jacques Rousseau (1712-1778) 
+Discours sur l’origine et les fondements de l’inégalité parmi les hommes (1755). 
+    • Inégalités naturelles vs. inégalités politiques
+    • Contrairement à Hobbes, l’état naturelle est un état de liberté, non pas de violence. 
+    • La société politique crée les contraintes et les inégalités plus qu’elle n’assure la tranquillité.
+
+Le Contrat social (1762).
+    •  " L’homme est né libre et partout il est dans les fers.  "
+    • L’unique principe qui doit guider les actions de la République est la volonté générale.
+    • Le souverain est une entité collective.  " A l'instant qu'il y a un maître, […] le Corps politique est détruit.  " 
+
+Politique économique
+Pierre Boisguilbert (1646-1714) 
+Détail de la France (1695)
+Traité sur la nature des richesses, de l'argent, et des tributs (1697-1707) 
+    • La France est riche en ressources naturelles (agriculture), mais sa politique économique ne favorise pas la croissance économique.
+    • Il faut permettre aux producteurs l’accès au capital pour investir.
+    • Il faut aussi leur donner des incitations pour produire plus (enlever la fixation des prix, réduire les impôts, etc.).
+
+
+
+Les Physiocrates
+François Quesnay (1694-1774). Tableau économique (1758) 
+    • La source de la valeur se trouve dans le travail de la terre (pas les échanges commerciaux, ni dans l’industrie).
+    • Circuit économique entre classes : Productive, Stérile, Propriétaires fonciers.
+    • Défense du libéralisme.   " Laisser faire. Laisser passer.  "
+
+De la théorie à la pratique
+Anne Robert Jacques Turgot (1727-1781) 
+Réflexions sur la formation et la distribution des richesses (1776)
+
+Ordonnance (1764) autorisant la liberté du commerce des grains dans le royaume et autorisant l’importation et l’exportation. Suspendue en 1770, puis restaurée par Turgot en 1774.
+
+Préambule de Turgot, 1774
+ " Plus le commerce est libre, animé, étendu, plus le peuple est promptement, efficacement et abondamment pourvu : les prix sont d’autant plus uniformes … les approvisionnements faits par le gouvernement ne peuvent avoir le même succès. … c’est par le commerce seul et par le commerce libre que l’inégalité des récoltes peut être corrigée.  " 1
+
+Mais mauvaise récoltes la même année, hausse des prix, et émeutes. Alors intervention de l’état pour fournir les marchés. 
+
+Les idées libérales ne sont pas universellement acceptées en France comme le meilleur moyen d’assurer la stabilité et la croissance.
+
+
+Adam Smith (1723-1790) 
+Professeur écossais de philosophie morale.  " Scottish Enlightenment  " (David Hume, et al.)
+
+Théorie des sentiments moraux (1758). Etude analytique de la nature humaine, pour réfuter Hobbes. 
+
+Voyage en France 1764-1766. Rencontres avec Voltaire, Quesnay, Turgot. 
+
+La Richesse des nations (1776)
+Sur le mercantilisme : C’est l’industrie que l’on poursuit pour le bénéfice des riches et des puissants qui est principalement encouragée par notre système mercantile. Celle que l’on poursuit pour le bénéfice des pauvres et des indigents est trop souvent soit négligée ou opprimée.2
+
+Rôle de l’Etat : Justice, défense, police, infrastructure, éducation.
+Financement mixte : Taxes générales et participation des usagers du service public. 
+
+Jeremy Bentham (1748-1832)
+An Introduction to the Principles of Morals and Legislation (1789) :  " Utilitarianisme  "
+Le rôle de l’Etat est de créer  " le plus grand bonheur pour le plus grand nombre  ". 
+Fondements de l’Etat-Providence (en anglais Welfare State).
+Calcul du bonheur ( " utilité  ").
+Analyse égalitaire entre les individus. L’utilité de tous les membres de la société a une valeur égale.
+Défenseur d’une politique sociale libérale :
+    • de la liberté politique et économique 
+    • des droits égaux pour les femmes
+    • l’abolition de l’esclavage (1772 & 1830)
+    • gestion des pauvres (maisons de travail)
+    • décriminalisation de l’homosexualité
+
+Mais l’Etat a la responsabilité d’empêcher les individus d’exercer ses libertés si cela risque d’entrainer une perte de bonheur ou une augmentation de peine. 
+
+David Ricardo (1772-1823)
+    • Sans formation formelle, il fait fortune dans la finance à Londres. Retraité à 40 ans, il se donne à une vie politique et intellectuelle. Très influencé par Adam Smith. 
+    • La richesse du pays provient surtout de l’activité industrielle (pas agricole), mais la politique est dominée par l’Aristocratie. Politique très conservatrice, mercantiliste.
+    • Grâce à sa fortune, il achète des terres qui lui permettent d’accéder au Parlement, où il se met à promouvoir ses idées libérales encore assez radicales.
+    • Aussi favorable à l’abolition de l’esclavage et à la tolérance religieuse, mais pas au suffrage universel. 
+
+
+David Ricardo, Principes d'économie politique (1817) 
+    • Avantage comparatif - Le commerce libre favorise la productivité et donc la richesse d’un pays.
+    • Théorie des rendements décroissants - une trajectoire vers la stabilité économique (état stationnaire).  " Il n'y aura plus d'accumulation, car aucun capital ne pourra plus rapporter le moindre profit ; aucun travail supplémentaire ne pourra être exigé, et par conséquent, la population aura atteint son niveau maximal.  "
+    • Equivalence ricardienne ou Equivalence Ricardo-Barro : L’Etat doit financer de nombreux projets. Que ce soit en taxant les sujets immédiatement ou en s’endettant pour les taxer plus tard, cela revient au même, car les consommateurs réduiraient leurs dépenses et épargneraient pour payer les taxes futures. Idée reprise et développée par Robert Barro en 1974 - d’où le nom  " Equivalence (ou effet) Ricardo-Barro  ". 
+
+Thomas Malthus (1766-1834)
+    • D’une famille aisée de nobles et éduqué à Cambridge, il devient par la suite prêtre d’une petite paroisse.
+    • Il est chargé de l’enregistrement des naissances, mariages et décès, et de la distribution de l’assistance publique ( " Poor Laws  " depuis le XVIème siècle). 
+    • Moralement très conservateur, mais économiquement très libéral.
+
+Essai sur le principe de population (1798), Principles of political economy (1820).
+    • Aléa moral ( " moral hazard  ") : L’assistance publique enlève l’incitation à travailler et favorise des familles nombreuses.
+    • Croissance démographique exponentielle : Nettement plus de naissances que de décès, surtout parmi les plus indigents. Mariages très jeunes. Au moins 4 enfants par famille. 
+    • Croissance économique arithmétique : La terre et du coup la croissance de la production agricole sont limitées.  
+    • Crises malthusiennes : L’essor démographique dans un contexte de croissance lente de la production entraine des crises (famine, épidémie, guerre).
+    •  " Moral restraint  " : Il propose de limiter l’assistance publique pour encourager les jeunes à travailler, à se marier plus tard, et à avoir moins d’enfants.
+
+Introduction de nouvelles  " Poor Laws  " beaucoup plus strictes à partir de 1834.
+
+
+Jean-Baptiste Say (1767-1832)
+    • D'une famille protestante et commerciale (sucre, coton) très aisée.   
+    • Il part en Angleterre à l’âge de 19 ans et voyage pendant 2 ans. Influencé par les idées de Smith. 
+    • Journaliste libéral pendant la Révolution. 
+    • Après la publication de son Traité d'économie politique (1803), Napoléon l’interdit d’exercer le métier de journaliste. 
+
+Traité d'économie politique (1803)
+    • Favorable au libéralisme et contre toute politique protectionniste. 
+    • Contrairement à Malthus, il se focalise sur la production. La demande suit l’offre. 
+    • La "loi des débouchés" ou "loi de Say":  " L’offre crée sa propre demande.  " (Keynes)
+    •  " La production ouvre des débouchés aux échanges.  " En créant un produit, on crée une opportunité pour un autre producteur de vendre ses produits. Selon Say, alors, une crise de surproduction est impossible, car on cherchera des marchés pour écouler ses produits. 
+    • La monnaie n’est qu’un moyen d’échanger des produits. 
+
+La réfutation de cette théorie sera un siècle plus tard le fondement de l’œuvre de Keynes.
+
+
+Frédéric Bastiat (1801-1850)
+Journaliste, économiste, député, défenseur du libéralisme. 
+Contre la peine de mort et les clubs politiques, pour le syndicalisme.
+Intellectuel oublié en France, mais un héros du libéralisme américain.
+
+Les Harmonies économiques (1850), La loi (1850)
+    • L'État :  " cette grande fiction à travers laquelle tout le monde s'efforce de vivre aux dépens de tout le monde  " 
+    • Le socialisme :  " la spoliation légale  "
+    • La solidarité :  " Il m'est tout à fait impossible de concevoir la Fraternité légalement forcée, sans que la Liberté soit légalement détruite, et la Justice légalement foulée aux pieds  ".
+
+
+
+La suite du libéralisme
+    • Le courant libéral se développe au sein des universités, des chaires d’économie se multiplient.
+    • Les économistes adoptent les mathématiques et l’abstraction pour ‘prouver’ leurs théorèmes.
+    • Les auteurs du mouvement  " néo-classique  " (Menger, Jevons, Walras, Marshall, Pareto, etc.) se focalisent sur les phénomènes microéconomiques et analyse  " l’équilibre  " ceteris paribus.
+    • Le cadre de leurs analyses suppose homo economicus et que les marchés ne peuvent trouver l’équilibre que dans l’absence d’intervention de l’état.  
+    • Le courant libéral ne disparait jamais, et il deviendra prédominant à Vienne et puis aux Etats-Unis dans la période de la guerre froide (Mises, Hayek, Friedman).  " Néo-libéralisme  ",  " Libertarianisme  ",  " Minarchisme  "
+    • Cependant, face au mouvement libéral, une idéologie de collectivisme commence à prendre forme, préconisant une plus forte intervention de l’Etat, mais se distinguant du mercantilisme. 
+
+
+
+2.5. L’Etat Protecteur, XIXème – XXème siècles
+
+L’émergence des idées socialistes
+    • Quelques années seulement après la publication de La Richesse des nations et le développement de l’industrialisation, un certain nombre d’observateurs commencent à comprendre les problèmes inhérents au système économique libéral. 
+    • L’industrialisation génère des inégalités, car les gains de productivité grâce à la mécanisation reviennent au propriétaire du capital, alors que les compétences des ouvriers sont de moins en moins valorisées.
+    • L’industrialisation entraine une forte urbanisation, ce qui augmente le risque d’émeutes et d’épidémies. 
+    • Les gouvernements cherchent des moyens de faire face aux problèmes induits par l’industrialisation : amélioration des conditions du travail, santé publique, protections de l’enfance, éducation gratuite. 
+    • Paradoxalement (ou pas), c’est au moment où les Etats mettent en place une politique intérieure de protection des citoyens qu’ils appliquent une politique extérieure de libre-échange (à partir du milieu du XIXème siècle.
+
+Jean de Sismondi (1773-1842)
+De la richesse commerciale (1803), défend les théories économiques libérales de Smith. 
+Nouveaux principes d'économie politique (1819), il observe les problèmes avec le système libéral.
+    • la concurrence réduit les coûts de production, et surtout les salaires. 
+    • le progrès technique rend la main-d'œuvre moins chère, ainsi réduisant les conditions de vies des ouvriers.
+    • Les ouvriers dépendent de leurs salaires pour manger tous les jours, et ont donc moins de marge de manouvre dans la négociation avec les patrons. 
+    • Le nombre d’employeurs est plus faible que le nombre d’ouvriers. 
+    • La négociation réduit en quasi esclavage un ouvrier face à un capitaliste qui peut, finalement, réduire à volonté les salaires. 
+    • Solution : L'intervention de l'état et un système dans lequel le patron serait obligé d’assurer le niveau de vie de ses employés. L’employeur devait aider son ouvrier malade au lieu de l’abandonner – donc paternaliste. Sismondi était aussi favorable à un retour à l'artisanat, pour réunir le travail et le capital, ce qui était, bien entendu, assez irréaliste. Mais il était contre une révolution violente. 
+
+
+
+Saint-Simon (1760-1825) 
+D'une famille aristocrate, il profite de la Révolution pour faire fortune en vendant les biens de l'Eglise. Suite à son succès financier, il se donne à la réflexion économique et publie très rapidement un certain nombre d’ouvrages : L'Industrie (1817), Le Politique (1819), L'organisateur (1820), Le système industriel (1822), Le Catéchisme des industriels (1824), Le Nouveau christianisme (1825). 
+
+    • Philosophie du progrès social basé sur le développement de l'industrie. 
+    • La moralité et la responsabilité sociale seraient intimement liées aux considérations économiques et technologiques. 
+    • La science et le progrès deviennent une sorte de religion. 
+    • Les industriels auraient l’obligation morale et légale d’élever la condition physique et morale de leurs ouvriers. 
+    • Les grands patrons devraient devenir les dirigeants du gouvernement, parce qu’ils seront toujours motivés de générer de la croissance économique.
+
+
+Robert Owen (1771-1853) 
+    • Industriel britannique qui a connu un grand succès financier grâce à l’exploitation de ses usines. 
+    • Conseiller auprès du Parlement britannique.
+    • Idées réformatrices 
+
+Une nouvelle vision de la société. Essais sur les principes de la formation du caractère des hommes (1813), Rapport sur les effets du système industriel (1815) 
+    • L’importance de l'éducation publique et le  " capital humain  " d’une société. 
+    • Farouchement contre toute religion, car elle transforme l'homme en  " un animal faible et imbécile, un fanatique furieux et un hypocrite odieux.  " 
+    • Les chefs d’entreprises peuvent comprendre l’intérêt qu’ils ont à bien s’occuper de leurs ouvriers. 
+    • Mieux nourris, mieux formés, mieux reposés, les ouvriers sont plus productifs. 
+    • Développe l’idée d’une crèche pour les enfants des ouvriers. 
+    • Echec de ses tentatives de mettre en pratique ses idées dans ses propres usines, mais fort impact sur la politique du pays (voir ci-dessous). 
+
+
+John Stuart Mill (1806-1873)
+    • Fils de James Mill (1773-1836), un économiste, philosophe et historien écossais très influencé par les idées de David Hume et de Jeremy Bentham. 
+    • Défenseur des idées économiques de Ricardo. L’économie fonctionne selon des lois naturelles et le principal moteur de l’économie est la recherche de l’intérêt personnel. Le développement économique général est plus rapide quand l’Etat n’impose pas de restrictions sur les acteurs économiques. 
+    • Sa philosophie utilitariste l’amène à promouvoir une redistribution de la richesse pour des raisons de justice sociale. ("Justice économique redistributive"). Par exemple, l'Etat doit assurer la protection sociale des citoyens, financée par un impôt sur la rente foncière.
+    • La propriété privée est contraire aux lois naturelles, car selon la loi naturelle la terre appartient à tous les hommes. 
+    • Mill croyait que l’équilibre parfait (état stationnaire) entre croissance démographique et croissance économique ne pouvait être atteint que quand il y aurait une répartition équitable des richesses.
+
+
+Louis Blanc (1811-1882) 
+    • Fils d’un haut fonctionnaire sous Napoléon, il fait de bonnes études. 
+    • Devenu précepteur d’un enfant d’une famille d'industriels à Arras, il a l’occasion de visiter les fabriques et il est choqué par les conditions misérables des ouvriers. 
+    • Il se tourne alors vers les études économiques et les activités politiques. 
+    • Créateur du journal Revue du progrès.
+    • Membre du gouvernement provisoire de 1848. Exilé par la suite. 
+
+L'organisation du travail, (1839)  
+    • Contre le système économique libéral, car il mène toujours au monopole. 
+    • Ceux qui détiennent plus de capital ont un avantage dans les négociations, ce qui leur permet d’accumuler davantage de capital. 
+    • Le système libéral est la source des inégalités. 
+    • Solution : Associations d’ouvriers. Ensemble, les ouvriers auraient plus de poids dans les négociations face à un employeur. Ces associations devaient être sous le contrôle de l'Etat (système républicain parlementaire démocratique). Ces associations pourraient favoriser une meilleure répartition des bénéfices du travail. 
+
+
+Pierre-Joseph Proudhon (1809-1865) 
+Membre de la Première Internationale ( " Association internationale des travailleurs  ") 
+Premier député "anarchiste". 
+
+Qu'est-ce que la propriété ? (1840) 
+    • "La propriété, c'est le vol" 
+    • Mais malgré l’injustice de la propriété privée, elle est le seul véhicule qui favorise la liberté personnelle.
+    • Il ne s’oppose donc pas au droit à la propriété privée.
+    • Critique envers les propriétaires oisifs qui profitent du travail des autres sans participer. 
+    • Il ne défend cependant pas la répartition égale des richesses, car l'homme ne serait pas motivé. 
+
+Système de contradictions économiques (1846) 
+    • la mécanisation rend plus facile le travail, mais met aussi l'ouvrier au chômage
+    • la division du travail augmente les richesses, mais abrutit l'homme 
+    • l'ouvrier a le plus besoin des crédits, mais ne peut pas en bénéficier faute de capital pour les garantir
+    • la concurrence mène toujours au monopole, etc. 
+    • Solution : Un système économique mutualiste fondé sur le droit qui abolit les privilèges mais pas la propriété privée. Il propose un modèle dans lequel chacun serait propriétaire de son propre lopin de terre ou de son propre atelier et il favorise la création d'une banque nationale qui propose des crédits sans intérêts. 
+
+
+Karl Marx (1818-1883)
+    • Philosophe, historien, juriste.
+    • Co-auteur avec Engels du Manifeste du parti communiste (1848).
+    • Expulsé du continent après la Révolution de 1848 à cause de ses activités politiques révolutionnaires. 
+    • Il se refuge en Angleterre où il passe le reste de sa vie. 
+
+La Capital. Critique de l’économique politique (1863, 1885, 1894)
+    • L’histoire avance grâce au conflit entre deux forces opposes (Hegel)
+    • La société peut être divisé entre ceux qui possède le capital et ceux qui n’en possèdent pas (Smith : propriétaires, investisseurs, salariés). 
+    • A cause de la loi des rendements décroissants (Ricardo), les capitalistes vont tenter de réduire sans cesse le coût de la production (salaires) pour augmenter les bénéfices.
+    • La classe ouvrière n’aura pas assez de moyens pour acheter ce qui est produit : crises de surproduction. 
+    • La fragilité du système capitaliste entrainera sa chute.
+    • Un système où le capital est détenu en commun prendra sa place.  
+    • Comme le capital a été accumulé grâce au vol et à l’exploitation, il n’y a rien d’injuste à le confisquer.
+
+
+
+Evolution de la politique du travail au XIXème siècle
+
+Royaume-Uni – Très progressiste
+1600 – Poor Laws : Assistance publique contre travail, organisation paroissiale. 
+1795 – Manchester Board of Health : pour veiller à la bonne santé des ouvriers.
+1802 – Health and Morals of Apprentices Act : heures de travail, conditions de travail et de vie.
+1819 – Cotton Mills Act : Age min 9 ans, 12 heures max par jour (Robert Owen).
+1833 – Factory Act : travail des moins de 18 ans, travail de nuit, inspecteurs.
+1834 – Poor Laws : fourni du travail à tout le monde, mais règles très strictes.
+1844 – Textile Factory Act : heures des enfants et femmes, médecins du travail, école obligatoire. 
+1860/72 – Mines Act : Salaires, sécurité, éducation. 
+1866 – Sanitary Act : conditions salubres dans les usines.
+1874 – Factory Act : âge min. de travail 10 ans.
+etc.
+
+France – Politique libérale, pas de syndicats
+    • Corporations de métier supprimées en 1791, interdiction de rassemblements d’ouvriers et de paysans.
+    • Manifestations d’ouvriers durement réprimées dans les années 1830 (après la Rév. de 1830). 
+    • Loi du travail de 1841 : âge min. 8 ans, 8h max pour 8-12 ans, 12h max pour 12-16 ans. Mais jamais appliquée.
+    • Révolution en 1848 (liberté d’association, limite d’heures de travail à 12h), renversée en quelques mois.
+    • Suppression du délit de coalition en 1864, les syndicats tolérés en 1868 et légalisés en 1884.
+    • Commune de Paris en 1870, réprimée en 1871 (20.000-30.000 morts)
+    • Lois de Jules Ferry (1881-82) : Education gratuite, laïque, et obligatoire jusqu’à 12 ans. Ordonnance nationale, mais gestion et financement locaux. 
+
+USA – Politique très libérale, mais syndicats ok
+    • Primauté des contrats librement négociés (heures, salaires, etc.).
+    • Travail d’enfants légal jusqu’aux années 1930. En 1900, 18% des ouvriers industriels étaient âgés de moins de 15 ans. 
+    • Syndicats autorisés - Mechanics Union (1827), National Labor Union (1866), American Federation of Labor (1886)
+
+
+
+Contexte politique du XXème siècle
+Norman Angell, The Great Illusion (1910) : L’expansion militaire n’est pas une source de richesse (voir Xénophon). Etant donné l’intégration profonde des marchés internationaux, une guerre serait tellement désastreuse pour l’économie qu’aucun pays n’envisagerait une telle folie.
+
+La Première Guerre Mondiale (1914-1917)
+    • Technologie industrielle utilisée pour destruction massive
+    • Bilan économique très lourd : infrastructure et hommes (13 millions de morts).
+    • Epidémie  " La grippe espagnole  " (2.5 millions de morts en Europe). 
+    • Instabilité monétaire à cause de l’abandon de l’étalon d’or.
+    • Déclin économique général. Effets psychologiques sur la société.
+    • Traité de Versailles : obligation à l’Allemagne de payer des réparations aux Alliés. 
+    • Création de l’Organisation Mondiale du Travail (1918).
+
+Montée du rôle de l’Etat. 
+    • Russie : Révolution Bolchévique communiste, 1917. 
+    • Allemagne : Hitler, Socialisme national ( " Nazisme  "), 1933-1945.
+    • Italie : Mussolini, Parti national fasciste ( " Fascisme  ") contre le mouvement socialiste, 1922-1943.
+    • Espagne : Franco, Forces nationalistes contre la République ( " Les Rouges  "), 1936/39-1975.
+    • Portugal : Salazar,  " Estado novo  " 1926/33-1974.
+    • Grèce : Metaxas, 1936-1949, 1967-1974.
+    • France : Léon Blum, Le Front Populaire, 1936-1939. Occupation/Vichy 1939-1944.
+    • Etats-Unis : Roosevelt (FDR),  " New Deal  " (pension, assistance publique), 1933-1945.
+
+Que le régime se considère socialiste ou fasciste, l’état promet de protéger le peuple en instaurant des politiques de protection sociale.
+
+Seconde guerre mondiale (1939-1945)
+    • Guerre à plus grande échelle (toute l’Europe, US, USSR, Chine, Japon, plus les colonies). 
+    • Destruction massive : infrastructure et +80 millions de morts, dont la plupart civils.
+    • Deux bombes nucléaires sur le Japon pour mettre fin à la guerre.
+    • Plusieurs dizaines de millions de victimes de génocides (160.000 déportés de la France vers les camps de concentration Nazis)
+    • Mise en cause des modèles politico-économiques.
+    • Volonté d’éviter de tels désastres à l’avenir.
+
+Période après-guerre
+    • Bretton Woods : ONU, IMF, Banque mondiale, GATT (OMC), OEEC (OCDE), 
+    • Guerre froide (libéralisme vs communisme) : Rideau de fer en Europe. 
+    • Essor économique de l’Europe de l’ouest et des Etats-Unis. 
+    • Fin du colonialisme. Inde, Asie, Afrique. 
+    • Création de la Communauté Européenne
+    • Développement de l’Etat-Providence : de vastes réformes dans les pays européens pour le bien-être social : santé publique, retraite, assistance publique, logement. 
+
+
+Karl Polanyi (1886-1964)
+The Great Transformation (1944)
+    • Sociétés primitives : basées sur la redistribution (un personnage central détermine qui reçoit quoi pour le maintien du groupe) et la réciprocité (l’échange pour marquer les distinctions sociales). Ménages comme unité de production (autarcie). Dette, cadeaux, interdépendance, devoir …
+    • Société marchande (à partir du 16ème siècle) : état-nation et économie de marché. Imposée par le même groupe. 
+    •  " La Paix de Cent Ans  " : un siècle d’industrialisation qui a créé une  " richesse  " incroyable mais cette  " amélioration aveugle  " entraine une dislocation sociale : inégalités, pauvreté, isolement, …
+    • Les mouvements nationaux des années 1930 marque une tentative de reconstruction de  " l’habitat  " de l’homme au sein d’une communauté soudée. Identité, importance de la famille, un dictateur paternel, etc. 
+    • L’Etat providence remplace les familles et les rapports humains, avec l’Etat anonyme comme intermédiaire. 
+
+Quelles similarités peut-on établir entre le contexte de la Révolution Industrielle du XIXème siècle et la Révolution Numérique du XXIème siècle ?
+Est-ce que les conséquences risquent d’être similaires ?
+
+
+
+Poursuite des idées libérales 
+
+Karl Popper (1902-1994), Juif à Vienne qui doit fuir au Royaume Uni en 1935.
+The Open Society and Its Enemies (1945)  
+    • Contre l’historicisme (Hegel, Marx) qui suppose une évolution inévitable à travers le conflit.
+    • Contre les révolutions et les réformes structurelles massives. 
+    • Favorable à des ajustements par le biais de politiques économiques et sociales dans le cadre d’un système démocratique.
+
+Ayn Rand (1905-1982), Une Russe qui fuit le communisme et s’installe aux USA en 1926.
+    • Romancière ( " Atlas Shrugged  "), et philosophe ( " Objectivisme  ")
+    • Favorable à  " l’égoïsme rational  " et contre la religion et l’altruisme. 
+    • Devenue une star intellectuelle des libertariens américains. 
+
+
+F. A Hayek (1899-1992), Intellectuel à Vienne qui fuit les Nazis.
+Economiste  " néo-libéral  ", Ecole autrichienne, Université de Chicago, London School of Economics
+The Road to Serfdom (La Route de la servitude), 1944.
+  " Le danger de la tyrannie qui résulte inévitablement du contrôle de la prise de décisions économiques par le gouvernement à travers la planification impérative de l’économie.  "3
+
+Rôle de l’Etat dans les affaires économiques selon Hayek (pages 42-45):
+    • maintenir la concurrence
+    • éviter la coercition et la fraude (voir Le Code de Justinien)
+    • y compris l’exploitation de l’ignorance
+    • empêcher des externalités négatives 
+    • bien-être minimum : nourriture, abri, vêtements pour préserver la santé. 
+    • assurance sociale (état comme assureur)
+
+Aucun modèle ne pourrait fonctionner si  " l’Etat ne faisait rien  ". 
+
+
+
+Milton Friedman (1912-2006),  " Ecole de Chicago  ", d’une famille Ukrainienne immigrée aux USA.
+Capitalisme et liberté (1962), L’histoire monétaire des Etats-Unis (1963)
+    • Les marchés pouvaient s’autoréguler, sans l’aide du gouvernement. 
+    • Les plans de relance ne peuvent que provoquer l'inflation. 
+    • Les agents économiques (contrairement à des bureaucrates) ont de meilleures informations sur les marchés et un intérêt particulier à bien allouer ses ressources. 
+    • Liberté politique = liberté économique 
+    • La Banque centrale joue un rôle dans la stabilisation des prix.
+    • Inspirateur de la politique économique de Ronald Reagan (président des USA 1980-1988), surtout le slogan :  " Le gouvernement n'est pas la solution, le gouvernement, c’est le problème  ". 
+
+
+Ronald Coase (1910-2006)
+The Problem of Social Cost (1960) 
+    •  " The Tragedy of the Commons  " - On a tendance à surexploiter une ressource lors qu’elle est tenue en commun, de peur que d’autres le fassent avant nous, mais bien la préserver lors qu’elle nous appartient et on peut la protéger. 
+    • Si toute la propriété était privée, il n’y aurait pas d’externalités car on pourrait défendre ses intérêts devant un tribunal.
+    •  " Government failure  " : Les tentatives de protection font plus de mal que de bien. 
+
+
+Robert Nozick (1938-2002),  " Libertaire  "
+Anarchy, State and Utopia (1974) - Réponse à John Rawls, Theory of Justice (1971).
+    • Défenseur radical de la liberté du choix.
+    • Il se base sur Locke et le droit naturel à la propriété privée. 
+    • Etat minimal, limité à la protection contre force, fraude, vol et l’administration des tribunaux pour résoudre des conflits. 
+    • Contre l’inaliénabilité des droits - Il défend même le droit de se vendre soi-même en esclavage ! 
+
+
+
+Poursuite des idées en faveur de l’intervention de l’Etat
+
+John Maynard Keynes (1883-1946)
+Economiste à Cambridge et haut fonctionnaire britannique. 
+Traité de Versailles (1919), Accords de Bretton Woods (1944)
+Les conséquences de la paix, 1919. 
+    • Pamphlet publié contre le Traité de Versailles
+    • Les réparations de guerre que l’Allemagne devait payer étaient trop chères.
+    • Elles affaibliront l’économie allemande, et par extension l’économie internationale.
+    • L’Allemagne finira par ne plus payer.
+    • Elles conduiront l’Allemagne à une sensation d’exploitation, et créeront des risques d’instabilité politique.
+
+
+Keynes, La Théorie générale de l’emploi, de l’intérêt et de la monnaie (1936) –  " The General Theory  "
+    • Mise en cause des théories économiques libérales qui promettent un équilibre naturel 
+    • Problèmes des cycles économiques dans un système capitaliste (Marx, Schumpeter).
+    • La demande effective (prévisions) crée l’incertitude. Comportements dirigés par  " les esprits animaux  ". (en anglais Animal spirits)
+    • Inquiet par rapport à la montée des régimes totalitaires en Europe. 
+    • Cherche une solution, car  " sur le long terme, nous serons tous morts  ". 
+
+
+Rôle de l’Etat selon Keynes :
+    • protection des marchés nationaux - pour éviter la perte d’autosuffisance nationale.
+    • stabilisation des prix - par le biais d’une politique monétaire (taux d’intérêt).
+    • stabilisation de la demande - par le biais des dépenses gouvernementales.
+Y = C + I + G + (X – M)
+
+
+Arthur Pigou (1877-1959)
+The Economics of Welfare (1920),  " L’économie du bien-être  "
+    • Le libéralisme n'amène pas forcément au meilleur optimum. 
+    • L'intervention de l'Etat pour soutenir le  " bien-être économique  " - la croissance générale.
+    • Pas le bien-être social, qui vise à une distribution plus équitable de la richesse. 
+    • L’état doit imposer une taxe dite  " pigouvienne  " (politique fiscale) pour réduire les externalités négatives (défaillance de marché).
+    • Son concept d’externalités deviendra le fondement des politiques environnementales
+
+
+William Lord Beveridge (1879-1963)
+Social Insurance and Allied Service, “The Beveridge Report” (1942)
+Rapport rendu au parlement britannique.
+    • L’Etat comme assureur contre les risques (maladie, accident, chômage, pauvreté, vieillesse).
+    • Tout le monde contribue en fonction de ses ressources, taxe progressive.
+    • Tout le monde a une garantie minimale contre les risques économiques. 
+    • Avantageux pour les employeurs car mutualisation du coût du risque, plus efficace, et une population ouvrière en meilleure santé.
+
+
+Hugh Dalton (1887-1962)
+The Measurement of the Inequality of Incomes (1920).
+Chancellor of the British Exchequer (1945-1947).
+    • Politique de redistribution après la guerre pour la justice sociale, mais aussi pour une meilleure productivité. 
+    • Allocations familiales, aide pour le logement, bourses d’études.
+    • Financé par des impôts progressifs.
+    • Correction des inégalités.
+ 
+
+Kenneth Arrow (1921-2017)
+Social Choice and Individual Values (1951). 
+    • General Impossibility Theorem : En utilisant la théorie des jeux, on comprend qu’il est impossible d’arriver à une distribution optimale si les agents sont libres de choisir en fonction de leur intérêt personnel (Smith). Le gouvernement ou une autre institution doit obliger les agents à accepter une situation qui, finalement, est dans l’intérêt de tout le monde (Hobbes). 
+
+    • Asymétrie de l’information : Dans la plupart des négociations, un agent a plus d’information que l’autre, ce qui lui confère un avantage qui pourrait l’amener à abuser de sa situation aux dépens de l’autre et entrainer la mauvaise allocation des ressources (défaillance de marché). L’Etat doit donc intervenir pour corriger ce problème, par exemple en établissant des normes de sécurité, en obligeant les vendeurs à fournir des informations claires et honnêtes. 
+
+
+John Rawls (1921-2002)
+A Theory of Justice (1971)
+    • “Justice as fairness” : On doit établir un système dans lequel on aurait envie de vivre si on ne savait pas qui on était ( " la position originale  ").
+    • On n’aurait pas envie d’un système totalement égalitaire, car on n’aurait aucune incitation à être productif. 
+    • Mais  " toute personne raisonnable  " aurait envie d’un système équitable, sans discrimination, qui offre des opportunités.
+    • Max-Min : A cause de la théorie de l’utilité marginale décroissante, on augmente l’utilité générale lors qu’on distribue plus équitablement les ressources.
+    • Il suppose que l’on ait tous le même type de raison.  
+
+
+Amartya Sen (b. 1933). 
+    • Collective Choice and Social Welfare (1970) :  " Capabilities approach  " : Liberté négative (on ne vous empêche pas) vs. Liberté positive (on vous donne la vraie capacité d’exercer vos droits : sécurité, éducation, infrastructure, etc.). 
+
+    • Poverty and Famines: An Essay on Entitlement and Deprivation (1981) : Famine : Défaillances très gaves de marches, même pendant des périodes de croisssance.
+
+    • The Idea of Justice (2009) : Structure vs. politique. Aucun système n’est parfaitement juste, mais on peut essayer de le rendre de plus en plus juste grâces à des politiques adaptées.
+
+
+
+Richard Thaler and Cass Sunstein 
+Nudge. Improving Decisions About Health, Wealth, and Happiness (2009)
+    • Les économistes ont traditionnellement supposé que l’agent économique = homo economicus : parfaitement rationnel, capable de calculer risque, toujours à la recherche de maximiser son intérêt personnel. Il faut donc laisser les individus un maximum de liberté. 
+    • L’économie comportementale a révélé comment les êtres humains prennent réellement des décisions, souvent contre leur intérêt personnel. 
+    • Santé - Problème d’incitations : patient qui reçoit un traitement, le médecin recommande, un assureur paie et une entreprise (hôpital, société pharmaceutique, etc.) profite.
+    • Retraite – problème d’optimisme et de volonté : on ne veut pas penser à la vieillesse, on est trop optimiste par rapport à notre capacité d’épargner plus tard, et on préfère consommer maintenant.
+    • Banque, assurances, etc. – Extrêmement complexe pour un consommateur de base. 
+
+Solution :  " Libertarian Paternalism  " : Un système de gouvernance dans lequel les individus sont parfaitement libre de choisir, mais les politiques sont construites de manière à ce que l’on ait tendance à choisir l’option le plus bénéfique pour lui.
+    •  " Architecture des choix  " : très peu couteux avec de très bons résultats. 
+    • Assurances maladie, retraite - Inscription par défaut, option de se retirer, car malgré les avantages énormes, la majorité des gens oublie de s’inscrire !
+    • RECAP (Record, Evaluate and Compare Alternative Prices) – Pour une information claire.
+    • Environnement – règlements sont anti-libertaires. Taxe carbone (pigouvienne) et cap-and-trade : crée des incitations, c’est très bien. Mais simplement une meilleure information :  " Energy Orb  " (rouge quand on consomme beaucoup/vert quand on consomme peu) a réduit la consommation des participants de 40% !
+
+
+
+
+
+
+Conclusion
+
+La construction de l’état moderne (State-building) : encore en transition.
+    • Les institutions européennes et les idéologies qui les justifient ont évolué énormément dans l’histoire en fonction du contexte : de libérales à mercantilistes, pour redevenir libérale, avec de multiples ajustements.
+    • L’Europe, à travers sa puissance militaire et économique, a introduit un certain nombre d’institutions dans d’autres régions dans le monde, plus ou moins bien adaptées aux sociétés sur lesquelles elles ont été superposées, sans pour autant accorder les mêmes droits aux peuples indigènes.
+    • La décolonisation et le rééquilibrage du pouvoir dans le monde suite à la Seconde guerre mondiale ont provoqué un processus accéléré de  " State-Building  " dans beaucoup de régions, non sans conflits violents.
+    • Le déclin de l’URSS a renforcé l’idéologie libérale à partir des années 1980, mais la montée de la puissance de la Chine au début du XXIème siècle, qui n’a pas vécu la même trajectoire historique que l’Europe, remet en cause un grand nombre de suppositions sur l’efficacité du modèle libéral. 
+
+Pourquoi étudier l’évolution des institutions et des théories économiques dans leur contexte historique ? 
+    • Afin de mieux cerner les trajectoires.
+    • Reconnaître qu’il y a une multitude de façons d’organiser la société et que les institutions sont le résultat d’une évolution complexe mais spécifique à chaque territoire (bien plus que juste les coûts de transaction de North).
+    • Les institutions qui régissent notre société actuelle sont relativement récentes et peuvent (et vont certainement) évoluer. 
+
+Observations générales :
+    • Les idéologies communautaristes tendent à émerger dans des contextes d’insécurité (guerres, épidémies, récessions).
+    • Les idéologies libérales tendent à se propager pendant des périodes de croissance. 
+    • Le poids du précédent - même une révolution ne permet pas de tout effacer pour reconstruire à neuf. 
+\end{document}
 
