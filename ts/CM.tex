@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\title{Théorie des sondages}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+\part*{Éléments introductifs}
+\section{Historique}
+La théorie des sondages est un ensemble d'outils statistiques permettant l'étude d'une population grâce à l'examen d'une partie de celle-ci. On appelle donc sondage toute étude partielle d'une population en vu de son extrapolation à la totalité de la population, on l'oppose à l'étude exhaustive de la population : le recensement. \\ \\
+Aujourd'hui on procède par sondage sauf pour les villes de moins de 10000 habitants. Le recensement n'est pas toujours possible, le sondage est utilisé en industrie, en santé, en statistique de la population (e.g., \textit{vérification du cahier des charges pour la résistance des matériaux, évite de détruire toute la production}). \\ \\
+La théorie statistique des sondages a été essentiellement développée par les instituts officiels de statistiques qui ont pour mission de produire des statistiques impartiales relatives à la vie économique et sociale d'un pays. La pratique des sondages a été divulguée au publique de manière médiatique via les sondages préélectoraux. \\ \\ 
+En théorie, obligation de divulguer les marges d'erreurs des sondages. Par construction, dans un sondage est présent un biais d'échantillonage, l'intérêt est de communiquer dessus hors peu fait en pratique car non vendeur.
+\section{Recensements et sondages}
+L'enquête par recensement donne lieu par définition à une collecte exhaustive de l'information que l'on recherche auprès de tous les individus de la population concernée, malheureusement la plupart des budgets supporte assez mal les recensement sauf s'il s'agit de population de petite taille où le sondage est alors à proscrire (e.g., \textit{interrogation des ecclésiastiques français}), le sondage n'est pas toujours moins cher ou moins efficace. \\ \\
+Comme la plupart des budgets supporte mal les recensement il est alors nécessaire de collecter l'information sur une partie de la population en constituant un échantillon d'individu que l'on interrogera, on parle alors d'enquête par sondage. \\ \\
+Avant 2003 : on interrogeait tout le monde, le recensement de la population était préparé et effectué tous les 7 à 8 ans ans. \\ \\
+Après 2003 : pour avoir des informations plus rapidement et un paysage sociodémographique de la population plus actualisé, on distingue les communes (35.000 en France) de plus de 10.000 et moins de 10.000 habitants, ces dernières sont classées en 5 groupes de 7.000 communes, on effectue un recensement exhaustif sur un de ces groupes tous les ans. \\ \\
+Pour les communes de plus de 10000 habitants (900) on réalise dans ces 900 communes un enquête par sondage auprès de 8\% de la population de ces communes, au bout de 5 ans on a interrogé 40\% de la population. \\ \\
+En terme de coût, le recensement est souvent prohibitif est non ouvert à tous les budgets, plus coûteux que le sondage mais le coût unitaire par personne interrogé est inférieur à celui du sondage. \\ \\
+Avant 2003 le recensement général de la population occasionnait un coût global de 150 millions d'euros. L'INSEE fait une enquête auprès de 15000 ménages qui revient à 150 euros par ménages, si 60 millions de français avec un taille moyenne du ménage de 4, alors de 10 euros par ménage. \\ \\
+Parallèlement à la question des coûts l'enquête par sondage présente l'avantage par rapport au recensement de fournir des résultats beaucoup plus rapidement en limitant de volume des données à traiter. Elle permet également d'approfondir certains domaines techniques qui ne peuvent être qu'effleurée lors d'un recensement. \\ \\
+Enfin il n'y a nécessité d'enquêter par sondage qu'il y a destruction de l'individu enquêté, comme dans le cadre des tests de robustesse (cf : industrie).
+\section{Étapes mise en oeuvre enquête par sondage}
+\subsection{Définir les objectifs et les contraintes de l'étude} La taille de l'étude va dépendre du budget, du temps disponible, etc. Permet de préciser ce que l'on souhaite étudier, estimer et la précision souhaitée. Les contraintes sont essentiellement des contraintes de coûts et de disponibilités de l'information auxiliaire, il peut également s'agir de contrainte de nature organisationnelle. \\ \\
+\textbf{Information axillaire :} permet d'améliorer le tirage et la précision des estimateurs, on doit la disposer pour tous les individus de l'échantillon (pas le paramètre d'intérêt !).
+\subsection{Définir la population cible et de la base de sondage} On procède en deux étapes : on définit d'abord de manière précise la population cible qui l'objectif à atteindre, définit de manière conceptuel (i.g., \textit{jeunes de -25ans inscrit en études supérieures}). \\ \\
+On constitue ensuite une liste de toutes les unités de la population appelée "base de sondage" qui généralement ne correspond pas exactement à la population cible.
+\subsection{Construction de l'échantillon} Détermination de la manière dont les unités vont être sélectionner. Il existe deux grands types plans de sondages :
+\begin{itemize}
+    \item \textbf{Méthode empirique/à choix raisonné} (e.g., \textit{méthode des quotas}) qui n'est pas une méthode statistique.
+    \item \textbf{Méthode probabiliste/aléatoire :} attribue une probabilité connue et fixée à l'avance à un membre de la population d'appartenir à l'échantillon (i.g., \textit{sondage stratifié, à probabilité inégale et à grappe}).
+\end{itemize}
+Si les unités sont choisies selon une procédure aléatoire on dit que le plan de sondage est probabiliste sinon il est dit à choix multiples ou probabiliste. \\ \\
+\subsection{Construction du questionnaire} Conception du questionnaire, on s'attaque à la formulation des questions, leur ordre, leur pertinence, à la durée moyenne de remplissage. Il est toujours utile de tester le questionnaire sur quelques individus avant le lancement de l'enquête. Il faut éviter en cas de question fermées un nombre de réponses impaires, la réponse du milieu est alors perçue comme une valeur de refuge.
+\subsection{Collecte de l'information} Choix du mode d'enquête le plus approprié (face-à-face, téléphone ou internet, l'enquête par voie postale, etc.) les modes de collecte ne sont pas interchangeable. \\ \\
+Le choix du mode de collecte, d'administration de l'enquête, est associé à des coûts de collecte extrêmement variables (face-à-face requiert des enquêteurs, une organisation, etc.). C'est également le moment de s'intéresser à une éventuelle saisie portable gérée et guidée par ordinateur (questionnaire papier vs saisie sur un appareil électronique, les données ne requiert alors par de saisie). \\ \\
+La phase de collecte doit être suivi par une phase de contrôle permettant de tester la conformité duc comportement des enquêteurs aux instructions qu'ils ont reçu. Cette phase permet de s'assurer que l'information sera fiable. 
+\subsection{Gestion des bases de donnés} Encodage des données et le choix des procédures de traitement et donc des logiciels de base de donnée et de statistique qui seront utilisés.
+\subsection{Contrôle de la qualité des données saisies} Réalisé de manière aléatoire...
+\subsection{Choix d'une méthode d'estimation des paramètres et d'une méthode de redressement} Le terme estimation s'applique à deux aspects indissociables du problème : l'estimation directe des paramètres d'intérêts, deuxièmement l'estimation de la précision de cet estimateur. Dans les méthodes empiriques, pas de probabilité associé aux individus, pas de méthode de précision de cet estimateur. \\ \\
+La précision d'un estimateur correspond à la variabilité de ce dernier. Le redressement est une technique qui permet d'améliorer la précision de certains estimateurs dans certaines circonstances, toujours après la collecte de l'information.
+\section{Théorie mathématique des sondages}
+La théorie mathématique des sondages intervient principalement à deux étapes : au niveau du choix de la méthode de tirage de l'échantillon (3) et au niveau de l'estimation des paramètres ces deux étapes sont très largement interdépendantes. \\ \\
+Le choix de la méthode de tirage et de l'estimateur dépendent de considérations de biais, de variances, de coûts ou de disponibilité de l'information. Déterminer la méthode de sélection de l'échantillon et la formulation de l'estimateur c'est ce que l'on appelle, déterminer le plan de sondage.\\ \\
+Interagissent ensemble la méthode de tirage, le calcul de précision et la formule  de l'estimateur sans bais dont la variance sera la mesure de la précision). \\ \\
+Principe de réalité : coûts de l'enquête vont venir contraindre la taille de l'échantillon et donc la précision de l'enquête. \\ \\
+Par définition les sondages probabilistes sont ceux pour lesquels chaque individu de la population a une probabilité donnée, connue d'avance, d'appartenir à l'échantillon, on l'appelle probabilité d'inclusion ou probabilité de sélection. N'importe quel individu de la base cible à une probabilité fixe d'appartenir à l'échantillon. \\ \\
+Par opposition les sondages empiriques ou à choix raisonnés sont ceux qui ne permettent pas de calculer la probabilité d'inclusion des individus, la méthode des quotas appartient à cette méthode de classe des sondages. \\ \\
+Les sondages probabilistes ont l'avantage de permettre des études de précision des estimateurs utilisant essentiellement la théorie et le calcul des probabilités. Ils ont donc un caractère scientifiquement rigoureux et une théorie mathématique qui les justifie permettant de faire des choix sur des hypothèses nécessairement formalisables. \\ \\
+Les sondages empiriques quant à eux s'appuie sur des considérations moins objectives, plus discutables et sont par conséquent moins rigoureuses, leur utilisation sont souvent guidée par des considération budgétaires. \\ \\
+E.g., \textit{si une personne devant être interrogée n'est pas disponible, possibilité d'interroger quelqu'un d'autres...}
+\part*{Les fondements de la théorie des sondages}
+\section{Formalisation et vocabulaire de base}
+\subsection{Paramètres et inférences}
+\textbf{Le paramètre :} la fonction des valeurs individuelles inconnues $Y_i$ est ce que nous cherchons à calculer, c'est donc un paramètre, c'est à dire une grandeur fixée mais inconnue que l'on va appeler $\theta = f(Y_1, ...., Y_i, .... Y_N)$ ou N est la taille connue de la population. \\ \\
+Cette grandeur fait intervenir dans le cas le plus général l'ensemble des valeurs $Y_i$ de tous les individus de la population, pour le sondeur elle représente  la vraie valeur qu'il faut estimer. \\ \\
+Dans le cas d'une moyenne : 
+\begin{equation*}
+    \theta = f(Y_1, Y_2,\dots, Y_n) = \dfrac{1}{N}\sum_{t=1}^{N}Y_i    
+\end{equation*}
+\textbf{L'inférence :} l'information est collectée sur un échantillon de taille n tiré par une méthode appropriée. La formulation sur l'échantillon est un peu compliquée par la signification que nous avons donné à l'indice $_i$ de la variable $Y$. \\ \\
+En effet $_i$ est l'identifiant de l'individu en tant qu'unité d'observation, c'est à dire tout ce qui permet d'identifier sans ambiguïté cet individu. \\ \\
+Voir photo. Seule façon de connaître $\theta$ est de faire une référencement. \\ \\
+Panel : même échantillon interrogé régulièrement...
+\end{document}
