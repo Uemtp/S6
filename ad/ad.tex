@@ -1,0 +1,132 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{textcomp}
+\usepackage[french]{babel}
+\usepackage{amsmath, amssymb}
+
+\usepackage[
+    left = \flqq{},% 
+    right = \frqq{},% 
+    leftsub = \flq{},% 
+    rightsub = \frq{} %
+]{dirtytalk}
+
+\usepackage{nicematrix}
+
+
+\setlength{\parindent}{0em}
+
+\title{Analyse des données}
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introduction}
+Les méthodes statistiques sont utilisées dans presque tous les secteurs de l'activité humaine et font parti des connaissances de base de
+l'ingénieur, du gestionnaire, de l'économiste, du chercheur \ldots \\ 
+A l'issue de la phase de recueil de données, la démarche statistique consiste à traiter et interpreter les informations recueillies. Cette démarche
+comporte souvant deux grands aspects, d'abord l'aspect descriptif ou exploratoire et dans un second temps l'aspect inférentiel ou décisionnel. \\
+\begin{itemize}
+    \item[] \textbf{La statistique exploratoire} a pour objet de synthetiser, résumer et structurer l'information contenue dans les données et utilise
+        pour cela des représentations des données sous forme de tableau, graphiques et ou indicateurs.
+    \item[] \textbf{La phase décisionnelle} arrive après la phase exploratoire, mais nous n'allons pas la traiter \\
+\end{itemize}
+Depuis plus de 50 ans les méthodes d'analyse de données ont largement démontré leur efficacité dans l'étude de gros volumes de donnés grace a
+l'informatique. \\
+Les méthodes dites \textbf{multi-dimensionelles} telles que l'analyse en composante principale (ACP) ou l'analyse factorielle des correspondances (AFC)
+permettent la mise en relation de nombreuses variables entre elles.\\
+Les méthodes multi-dimensionelles permettent d'obtenir des représentations graphiques qui constituent le meilleur résumé possible de l'information dans 
+un gros tableau de données.\\
+Pour cela le statiticien conscent à une perte d'information afin de gagner en lisibilité, il est alors en mesure de faire apparaitre les principaux
+phénomènes qu'il cherche à analyser.\\
+
+Il est possible de diviser les principales méthodes d'analyse de données en deux grands groupes : \\
+
+\begin{itemize}
+    \item[] \textbf{Les méthodes de classification} qui ont pour objet de réduire la taille de l'ensemble des individus en formant des groupes homogènes
+    \item[] \textbf{Les méthodes factorielles} cherchent à réduire le nombre de variables en les résumant par un petit nombre de composants synthétiques.
+        Selon que les variables soient quantitives ou qualitatives, on utilisera soit l'analyse en composante principale, soit l'analyse factorielle des
+        correspondances. \\
+\end{itemize}
+Le choix d'une méthode statistique dépend de l'objectif que l'on se fixe, mais également de la nature des variables, ainsi que le nombre de variables.
+
+\subsection{Les différents types de variables}
+Une variables statistique décrit une caractéristique pour les différents individus. On distingue deux grands types de variables, les variables
+qualitatives et quantitatives.
+\begin{itemize}
+    \item Les variables quantitatives qualifient des quantités, elles peuvent se classer en variables continues ou discrètes.
+    \item Les variables qualitatives définissent une caractérisitque (des qualités), elles peuvent être de deux natures : nominales ou ordinales.
+\end{itemize}
+\subsection{Description d'une variable quantitative}
+Une variable quantitative est décrite par l'ensemble des valeurs qu'elle prend pour n individus. Afin de synthétiser l'information, on peut utiliser la
+moyenne ou la variance.
+\begin{align*}
+    \overline{x} &= \frac{1}{n}\sum_{i = 1}^{n} x_i & V(x) = \frac{1}{n} \sum_{i = 1}^{n} \left( x_i - \overline{x} \right)^2
+\end{align*}
+Par définition une variable est centrée si sa moyenne est nulle et est réduite et, si sa variance est égale à 1. L'interet de centrer et réduire permet de
+donner une interprétation géométrique au coefficient de correlation linéaire.
+\subsection{Description d'une variable qualitative}
+Pour décrire les variables qualitatives, on utilise des fréquences relatives et les tableaux disjonctifs complets.\\
+
+Considérions la variable qualitative \say{couleur des yeux} avec trois modalités : bleu, vert et marron.
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Individu         & 1    & 2    & 3      & 4    & 5    & 6    \\ \hline
+Couleur des Yeux & Bleu & Vert & Marron & Vert & Bleu & Bleu \\ \hline
+\end{tabular}
+\end{center}
+L'effectif est le nombre d'individus ayant une modalité dans l'échantillon. On peut donc a partir de l'effectif, calculer la fréquence relative
+qui est l'effectif divisé par le nombre total d'individus. \\
+
+La présentation d'une variable qualitative sous sa forme disjonctive complète est celle qui se prête le mieux à des calculs statistiques. Cette
+dernière s'obtient en définissant une variable indicatrice pour chacune des modalités de la variable (\say{B} pour bleu \ldots). \\
+
+Tableau disjonctif complet des données ci-dessus : 
+\begin{equation*}
+\text{X}=
+\begin{bNiceMatrix}[first-row]
+    \text{B} & \text{V} & \text{M} \\ 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \\ 1 & 0 & 0 \\ 1 & 0 & 0
+\end{bNiceMatrix}
+\end{equation*}
+Propriétés du tableau disjonctif :
+\begin{itemize}
+    \item La somme des colonnes du tableau complet est égale à un vecteur colonne de dimension $n$ dont tous les éléments sont égaux à 1. Chaque
+        individu possède une seule modalité, cela signifie que sur une ligne de données ne figure que des 0, à l'exception d'un élément unique
+        égal à 1.
+    \item Le produit matriciel de la transposée de la matrice X fois X est une matrice diagonale dont les éléments sont les effectifs de
+        chacune des modalités. Exemple avec les données précédentes : \\
+\end{itemize}
+\begin{equation*}
+    \text{X'X} = 
+    \begin{bmatrix} 1 & 0 & 0 & 0 & 1 & 1 \\ 0 & 1 & 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \end{bmatrix} 
+    \cdot
+\begin{bNiceMatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \\ 1 & 0 & 0 \\ 1 & 0 & 0 \end{bNiceMatrix}
+= \begin{bmatrix} 3 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 1\end{bmatrix} 
+\end{equation*}
+
+
+
+\subsection{Relation entre deux variables quantitatives}
+Une variable $x$ prenant $n$ valeurs peut être représentée par un vecteur dans un ensemble $\mathbb{R}^n$. Dans cet espace, le produit scalaire
+entre deux vecteurs $\vec{x}$ et $\vec{y}$, est égal à la
+somme pour l'ensembles des individus de $x$ et $y$ 
+\begin{equation*}
+    \vec{x} \cdot \vec{y} = \sum_{i = 1}^n x_i y_i 
+\end{equation*}
+En statistiques, le produit scalaire utilisé est :
+\begin{equation*}
+    \vec{x} \cdot \vec{y} = \frac{1}{n}\sum_{i = 1}^n x_i y_i 
+\end{equation*}
+Ce produit scalaire permet de donner une interpréation géométrique du coefficient de corrélation linéaire. Le cosinus de l'angle formé entre les deux
+variables est égal au coefficient de correlation entre ces deux variables tel que : $\cos(\text{X,Y}) = r_{\text{X,Y}}$. \\
+
+Si le coefficient de corrélation est égal a 1, les deux vecteurs sont colinéaires (les valeurs prises par $x_i$ et $y_i$ sont proportionelles).
+L'abscence de correlation se traduit par un coefficient de corrélation nul et par un angle droit entre $x$ et $y$.
+\subsection{Relation entre une variable quantitative expliquée et un ensemble de variables quantitatives explicatives}
+
+\end{document}
