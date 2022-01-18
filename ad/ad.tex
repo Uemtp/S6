@@ -5,6 +5,7 @@
 %\usepackage{textcomp}
 \usepackage[french]{babel}
 \usepackage{amsmath, amssymb}
+\usepackage{xcolor}
 
 \usepackage[
     left = \flqq{},% 
@@ -127,6 +128,147 @@ variables est égal au coefficient de correlation entre ces deux variables tel q
 
 Si le coefficient de corrélation est égal a 1, les deux vecteurs sont colinéaires (les valeurs prises par $x_i$ et $y_i$ sont proportionelles).
 L'abscence de correlation se traduit par un coefficient de corrélation nul et par un angle droit entre $x$ et $y$.
+
+Notes 14/01/22
+
+\begin{equation*}
+    X = 
+    \begin{bmatrix} 1&0&0 \\ 0&0&1 \\ 1&0&0 \\ 0&0&1 \\ 1&0&0 \\ 0&1&0 \\ 0&1&0 \\ 0&0&1 \\ 0&1&0 \\ 1&0&0 \end{bmatrix} 
+\end{equation*}
+
+\begin{equation*}
+    Y =
+    \begin{bmatrix} 0&1 \\ 0&1 \\ 0&1 \\ 1&0 \\ 1&0 0&1 \\ 1&0 \\ 1&0 \\ 1&0 \\ 0&1 \end{bmatrix} 
+\end{equation*}
+
+On peut obtenier le tableau de contingence : $C = X'Y$
+13 21 21
+=
+1010100001 0000011010 0101000100
+*
+01 01 01 10 10 01 10 10 10 01
+
+Tableau de contingence ou des effectifs observés
+
+Tableau des frequences observées
+
+\subsubsection{Le tableau de BURT}
+A partir du tableau disjoncitf complet de trois variabkes qualitatives $X, Y , Z$ on peut construire le tableau de BURT : $B = (X,Y,Z)' \cdot (X,Y,Z)$
+\begin{align*}
+    X 
+\end{align*}
+X
+Y
+Z 010 100 100 010 100 001 001 010 100 100
+
+\begin{equation*}
+    B = 
+    \begin{bmatrix}
+        4&0&0& &1&3& &3&1&0 \\
+        0&3&0& &2&1& &1&0&2 \\
+        0&0&3& &2&1& &1&2&0 \\
+        \\
+        1&2&2& &5&0& &2&2&1 \\
+        3&1&1& &0&5& &3&1&1 \\
+        \\ 
+        3&1&1& &2&3& &5&0&0 \\
+        1&0&2& &2&1& &0&3&0 \\
+        0&2&0& &1&1& &0&0&2 
+\end{bmatrix} 
+\end{equation*}
+Le dernier élément concerne la transformation d'une variable quantiative en qualitative ou d'une variable qualitative en quantitative.
+Pour transformer une variable quantitative en variable qualitative, on fait des classes.
+Exemple :
+Avis sur l'enseignement pendnant la prériode covid
+\begin{itemize}
+    \item Très satisfait = 2
+    \item Moyennement satisfait = 1
+    \item Pas dutout satisfait = 0
+\end{itemize}
+Le saut entre niveau de satisfaction est de 1
+L'interet des vraibles qualitatives est d'autoriser un certain nombre de non linéarité. 
+
 \subsection{Relation entre une variable quantitative expliquée et un ensemble de variables quantitatives explicatives}
+Si on considère un tableau a n lignes et p colones
+
+\begin{equation*}
+    \begin{bmatrix} 
+        X_{11} & X_{12} & \ldots & X_{1p} \\
+        \cdots 
+        X_{i1} & X_{ij} & \ldots & X_{ip} \\
+        X_{n1} & X_{nj} & \ldots & X_{np}
+    \end{bmatrix} 
+\end{equation*}
+X
+La distance entre deux individus $i$ et $i'$ revient à calculer la distance :  $d^2(i,i') = \sum_{j = 1}^{p}(X_{ij} - X_{i'j})^2$ 
+Ce qui différencie les méthodes, c'est la distance que l'on prend. 
+
+\section{L'analyse en composantes principales (ACP)}
+L'ACP est sans aucun doute la méthode d'AD la plus connue et la plus utilisée, c'est à Pearson et Hotelling que l'on doit les premieres publications à
+son sujet. Cette technique est connue depuis plus d'un siècle, mais s'est développée au cours des 50 dernières années, grace a l'informatoqie. C'est à
+partir des années 60 que la technique se développe
+
+\paragraph{But et interêt de la méthode}
+La présentation synthétique d'un grand ensemble de données, résultant de l'étude de plusieurs caractères quantitatifs sur une population n'est pas
+chose facile. L'ACP a donc pour objet de reveler les inter relations entre ces différentes variables quantitatives et proposer une solution 
+
+\subsection{A la recherche d'une structure}
+Un des interets majeurs de la SCP est de fournir une  méthode de représentation d'une population décrite pa run enesemble de carctere quantitattif
+afin de : 
+\begin{enumerate}
+    \item Reperer des groupes d'individus homogènes vis a vis de l'ensemble des caractères.    
+    \item Cette méthode acte a révéler des différences entre individus ou groupe d'individus, relativement à l'ensemble des caractères, 
+    \item Apte a mettre en évidence des individus au comportement atypique ce comportement étant du a la précesence de données abérantes soit a des 
+        causes qu'il conviendra d'expliquer.
+    \item Réduire l'information qui permet de décrire la position d'un individu dans l'ensemble de la population.
+\end{enumerate}
+L'ACP permet de construire des variables artificielles qui expliquent l'ensemble des variables statistiques prises en compte dans l'ACP. Ces var
+permettent une réduction du tableau des données brutes. Puisqu'au prix d'une perte d'information que l'on saura mesurer, il sera possible de remplacer
+l'ensemble des variables statistiques de départ par un nombre en général beaucoup plus faible de var statistiques artificielles. Finalement les apports
+principaux de l'ACP sont de deux types :
+\begin{enumerate}
+    \item L'élaboration d'une ou plsr représentation des individus analyse du nuage des individus, cette analyse permet de chercher la str
+    \item La construction de variables artificielles qui expliquent les variables statistiques mesurées sur la population. Analyse du nuage des
+        variables.
+\end{enumerate}
+En résumé, l'analyse en composante principale est la base de toutes les analyses multi-factorielles, elle s'applique à des tableaux a deux dimensions
+croisant des individus et des varaiables quantitatives. Elle consiste à regrouper des vabriables quantiatives en combinaisons linairaes, que l'on va
+appeller composantes principales ou axes factoriels.
+
+\subsection{Données des marges retenues dans l'ACP et démarche utilisées}
+Du point de vue de sa notation mathématique, la position du prob est simple, elle consiste à partir de p variables quantitatives quelconques,
+constituant un repère à p dimensions, à passer a un repère orthonormé à p dimensions également, mais ces nouvelles dimensions sont appellés les
+facteurs ou composantes principales. 
+\subsubsection{Les données et les notations}
+On suppose que l'on dispose de l'observation de p variables quanti pour n individus
+
+\begin{equation*}
+    X_{n,p} = 
+    W_{11} X_1j X_{1p}
+    X_{i_1} Xij X_{ip}
+    X_{n_1} X_{np}
+\end{equation*}
+La ligne i décrit la valeur prise par l'individu petit i pour les p variables qui sont en colonne. La colonne j décrit bien la valeur de la variable
+X_1j pour les n individus de l'échantillon. Pour des raisons essentiellement d'ordre pratique on va centrer et réduire la matrice X des données
+brutes.
+Le centrage et réduction peremet en partie de réduire les problemes d'unité de mesure heterogene. Cela permet ausssi de faire en sorte que les
+variables s'inscrivent dans le cercle de correlation des variables de rayon 1. Pour centrer et réduire, 
+
+\begin{equation*}
+    Z_{ij} = {X_{ij} - \overline{X_{j}}}{\sigma\left( X_{j} \right) \implies Z_{N,p} = 
+    \begin{bmatrix} Z_{11} = \frac{X_{11} - \overline{X_1}}{\sigma(X_1)} \\ Z_{ij} = \frac{X_{ij} - \overline{X_j}}{\sigma\left( X_j \right) } \end{bmatrix} 
+\end{equation*}
+A partir de cette matrice Z il est possible de construire de construire la matrice des coef de cor lin (r), cette matrice r est : 
+\begin{equation*}
+    R_{p,p} = \frac{1}{n}Z_{p*n}'Z_{n*p}
+    =
+    \begin{bmatrix} 1 r_{1,2} \\ r_{2,1} \end{bmatrix} 
+
+\end{equation*}
+$r_{1,2} = r_{2,1}$ est donc symétrique
+A partir de ce moment là on peut savoir si l'on peut réaliser l'ACP
+Il est également possible de calculer la matrice de dispersion des individus, appellée matrice V $V_{n,n} = \frac{1}{n} ZZ'$. cette matrice n'est pas
+une matrice de corrélation (c'est une matrice de dispersion). On travaille plus souvent sur R car l'on a plus d'individus que de variables dim R < dim
+V
 
 \end{document}
