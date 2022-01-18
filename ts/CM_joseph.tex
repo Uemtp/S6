@@ -1,0 +1,168 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[french]{babel}
+\usepackage{amsmath, amssymb}
+
+\DeclareMathOperator{\E}{E}
+\DeclareMathOperator{\V}{V}
+
+
+
+\title{Théorie des sondages}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\part{}
+
+\section{}
+une fois l'échantillon selectioné on dispose de l'information suivante : $Y_{i1}, Y{i2}, \ldots Y_{in}$. Cherchons toujours teta, il convient de 
+combiner ces petites $n$ valeurs recuillies sur l'échantillon pour obtenir une expression dont la valeur numérique est proche de celle de $\theta$. La
+formule qui aggrège les petis $n$ valeurs s'appelle l'estimateur de teta, on le note :  $\hat{\theta}$ il s'agit d'une fonction calculée a partir des
+données de l'échantillon, et la procédure qui permet de sauter le pas, c'est à dire de passer des odnnées receuillies sur les échantillons à la vrai
+valeur inconnue dans la population s'appelle l'inférence statistique (coeur même de la théorie des sondages).
+
+\section{Les mesures des erreurs d'échantillonage}
+Une fois que la fonction qui agrège $\hat{\theta} = g(Y_{i1}, Y_{i2}, \ldots Y_{in})$ petit g a été choisie il est nésessaire d'evaluer sa pertinence en
+d'autre termes il convient de répondre à la question suivante : étons proche de la valeur $\theta$ lorsque l'on calcule $g$ a partir de
+l'échantillon selectionné. En fait il n'est pas possible de répondre précisément à cette question pour la simple et bonne raison que l'on ne connait
+pas $\theta$, mais la statistique permet d'apporter des éléments de réponse en exploitant l'aspect probabiliste des choses. Un des points fondamentaux
+qu'il faut a présent bien comprendre, réside dans la nature de l'aléa introduit dans notre problème, l'aléa se situe exclusivement au niveau des
+identifiants des individus de l'échantillon.
+Ce qui est aléatoire sont les $i1, i2, \ldots in$ et non les $ Y_{i1}, Y_{i2}, \ldots Y_{in}$, ainsi si l'on réalise une enquete sur les revenus, le
+sondeur considère dans son enquete que chaque individu dans la population est capable de fournir son revenu, en revanche l'échantillon $s$ d'individus
+interrogés sur leur revenu aura une compisition aléatoire. Notre estimateur  $g ou \hat{\theta}$ est donc aléatoire fonction de léchantillon $s$. La
+réponse à notre question initiale fait appel à trois notions : le biais, la variance, et l'erreur quadratique moyenne. 
+
+Exemple : 
+$N=30 n=5$ \\ 
+\begin{align*}
+    \hat{\overline{Y}} = \overline{y} &\rightarrow s_1 = (2302, \ldots , \ldots ) &\hat{y}(s_1) &= \hat{\overline{Y}} \\
+                                      &\rightarrow s_2 = (\ldots, \ldots , \ldots ) &\hat{y}(s_2) &= \hat{\overline{Y}} \\
+\end{align*}
+
+\subsubsection{Le biais}
+Le biais permet de détecter la présence éventuelle d'erreur systématique, il correspond donc à la différence entre l'espérance mathématique de
+l'estimateur  et le paramètre lui même $\text{Biais} = \E(\hat{\theta}) - \theta $. Le biais constitue une premiere mesure d'erreur d'échantillonage.
+
+Exercice :
+Considérons une population composée de 4 entreprises $N = 4$ et l'on s'interesse au chiffre d'affaire mensuel moyen de cette population
+$\overline{\text{CA}}$ mensuel. Le CA mensuel des entreprises est le suivant :
+\begin{itemize}
+    \item CA1 = 6000€
+    \item CA2 = 12000€
+    \item CA3 = 8000€
+    \item CA4 = 6000€
+\end{itemize}
+Supposons que pour raison de contrainte de budget, je ne interroger que 2 entreprises parmis les 4 $n=2$
+\begin{equation*}
+    \theta = \frac{CA_1 + CA_2 + CA_3+CA_4}{N} = 8000 €  %barré
+\end{equation*}
+Nombre d'échantillons possibles :
+\begin{equation*}
+    C^2_4 = \frac{4!}{2!(4-2)!} = 6
+\end{equation*}
+Ces 6 échantillons sont les suivants : 
+\begin{itemize}
+    \item $s_1 = (1,2)$
+    \item $s_2 = (1,3)$
+    \item $s_3 = (1,4)$
+    \item $s_4 = (2,3)$
+    \item $s_5 = (2,4)$
+    \item $s_6 = (3,4)$ 
+\end{itemize}
+Parce que l'on juge que l'entreprise 1 est particulièrement coopérative sur ce sujet, on veut lui donner une probabilité de tirage supérieure aux
+trois autres, si bien que les trois échantillons $s_1, s_2, s_3$ sont un peu plus probables que les autres. La probabilité de selectioner
+l'échantillon 1 : 
+\begin{itemize}
+    \item $P(s_1) = 0.25$
+    \item $P(s_2) = 0.25$
+    \item $P(s_3) = 0.2$
+    \item $P(s_4) = 0.1$
+    \item $P(s_5) = 0.1$
+    \item $P(s_6) = 0.1$
+\end{itemize}
+Et par soucis de simplicité on choisi comme estimateur la moyenne simple dans l'échantillon. Autrement dit, on suppose que :
+$\hat{\overline{\text{CA}}} = \overline{y}$ La moyenne simple calculée pour les entreprises des échantillons.
+
+\begin{align*}
+    &s_1 &\overline{\text{CA}}(s_1) &= \frac{6000 + 12000}{2} = 9000 \\
+    &s_2 &\overline{\text{CA}}(s_2) &= \frac{6000 + 8000}{2} = 7000 \\
+    &s_3 &\overline{\text{CA}}(s_3) &= \frac{6000 + 6000}{2} = 6000 \\
+    &s_4 &\overline{\text{CA}}(s_4) &= \frac{12000 + 8000}{2} = 10000 \\
+    &s_5 &\overline{\text{CA}}(s_5) &= \frac{12000 + 6000}{2} = 9000 \\
+    &s_6 &\overline{\text{CA}}(s_6) &= \frac{8000 + 6000}{2} = 7000
+\end{align*}
+
+Calculons le biais : $\theta = \overline{\text{CA}} = 8000€$
+\begin{equation*}
+\begin{split}
+    \E\left( \theta \right) &= \sum_{s = 1}^{6} P(s) \cdot \hat{\theta}(s) \\
+    &= 0.25 * 9000 + 0.25 * 7000 + 0.2 * 6000 + 0.1 * 10000 + 0.1 * 9000 + 0.1 * 7000 = 7800
+\end{split}
+\end{equation*}
+En moyenne l'estimateur est de $7800$, on peut donc calculer le biais : 
+\begin{equation*}
+   \text{Biais} = 7800 - 8000 = -200 
+\end{equation*}
+\subsubsection{La variance}
+On présent bien au travers de l'exemple précédent que la notion de moyenne ne suffit pas à mesurer la qualité d'un échantillonage et qu'il faut une
+autre grandeur d'avantage liée à la dispersion des valeurs de $\hat{\theta}$. On calcule la variance des estimateurs $\hat{\theta}_s$lorsque l'aléa est
+l'échantillon, $s$
+\begin{equation*}
+\begin{split}
+\V(\hat{\theta}) &= E \left[ \left( \hat{\theta} _ \E\left( \hat{\theta} \right)  \right)^2  \right] \\
+    &= \sum_{s = 1}^6 P(s) \left[ \left( \hat{\theta} _ \E \left( \hat{\theta} \right)  \right)^2 \right]  
+\end{split}
+\end{equation*}
+La présence du terme quadratique fait toute la différence avec le biais puisque les écarts positifs et négatifs ne se compensent plus. En terme de
+sondage $\sigma_{\hat{\theta}} \text{et} \V(\hat{\theta})$ mesurent la précision et constituent après le biais une seconde mesure de l'erreur 
+d'échantillonage, plus ils sont grands, moins le plan de sondage est bon. Si $\sigma_{\hat{\theta}} \text{et} \V(\hat{\theta})$ sont grands il faut 
+agir sur l'expression de $\hat{\theta}$ soit sur les probabilités de tirage ($P(s)$). Le meilleur estimateur $\hat{\theta}$ est celui qui a la plus
+petite variance compte tenu du budget dont on dispose.
+\begin{equation*}
+\begin{split}
+    0.25 (9000 - 7800)^2 &= 360000 \\
+    0.25 (7000 - 7800)^2 &= 160000 \\
+    0.2 (6000 - 7800)^2 &= 648000 \\
+    0.1 (10000 - 7800)^2 &= 284000 \\
+    0.1 (9000 - 7800)^2 &= 144000\\
+    0.1 (7000 - 7800)^2 &= 64000
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+    \V\left( \hat{\theta} \right) = 1860000 
+\end{equation*}
+
+Pour terminer, il faut insister une fois encore sur le fait que ni l'espérance, ni la variance ne peuvent renseigner sur l'écart exact entre la valeur
+de $\hat{\theta}$ obtenue et la vrai valeur de $\theta$ inconnue.
+
+\subsubsection{L'erreur quadratique moyennei (EQM) (MSE)}
+On peut également construire un indicateur de précision qui englobe les notions de biais et de variance pour se faire, il suffit de calculer l'erreur
+quadratique moyenne qui est $ \text{EQM = \E\left[\hat{\theta} - \theta \right]^2 } $. Cette erreur quadratique moyenne est un indicateur synthétique
+de qualité permettant de répondre à la question complexe suivante : est-il préférable d'avoir un biais fort et une variance faible ou un biais faible
+et une variance forte, il n'y a evidement pas de bonne réponse à cette question, mais la pratique montre que l'on cherche en général à éviter en
+priorité les biais forts.
+
+Pour conclure : l'erreur d'échantillonage est donc le fait que les résultats numériques publiés à la suite d'un sondage dépendent des individus qui
+composent l'échantillon. Elle est présente, et meme une caractéristique des enquetes par sondage. Cette erreur d'échantillonage se mesure par le
+biais, la variance ou l'erreur quadratique moyenne, elle ne peut pas être évitée.
+
+\section{Les bases de sondage}
+\subsection{Les propriétés des bases de sondages}
+Pour pouvoir réaliser un tirage probabilisite, c'est à dire un tirage pour lequel par définition chaque individu de la population a une probabilité
+connue et fixée à l'avance de faire partie de l'échantillon à enqueter, il est absolument nécessaire de disposer d'une liste de toutes les unités
+d'échantillonage faisant partie du champs de l'enquete, cette liste est appellée base de sondage, et elle doit posseder un certain nombre de qualités.
+
+Pas de double compte
+Permet de reperer sans ambiguité les individus
+Le moins de défaut de couverture (doit etre exhaustive)
+
+
+
+\end{document}
